@@ -1,0 +1,15 @@
+
+=INFO REPORT==== 11-Aug-2012::23:09:47 ===
+Starting Boss in development mode....
+
+=INFO REPORT==== 11-Aug-2012::23:09:47 ===
+Starting master services on 'lxw@jason-lxw'
+
+=INFO REPORT==== 11-Aug-2012::23:09:47 ===
+SSL:[]
+
+=INFO REPORT==== 11-Aug-2012::23:09:47 ===
+Starting cowboy... on 'lxw@jason-lxw'
+
+=INFO REPORT==== 11-Aug-2012::23:09:47 ===
+Starting http listener... on 8001 

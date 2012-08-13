@@ -1,0 +1,75 @@
+
+=INFO REPORT==== 12-Aug-2012::13:23:26 ===
+Starting Boss in development mode....
+
+=INFO REPORT==== 12-Aug-2012::13:23:26 ===
+Starting master services on 'lxw@jason-lxw'
+
+=INFO REPORT==== 12-Aug-2012::13:23:26 ===
+SSL:[]
+
+=INFO REPORT==== 12-Aug-2012::13:23:26 ===
+Starting cowboy... on 'lxw@jason-lxw'
+
+=INFO REPORT==== 12-Aug-2012::13:23:26 ===
+Starting http listener... on 8001 
+
+=INFO REPORT==== 12-Aug-2012::13:23:26 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::13:23:36 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::13:23:36 ===
+GET /my/test/ [lxw] 200 6ms
+
+=INFO REPORT==== 12-Aug-2012::13:23:36 ===
+lxw_test_websocket3:handle_join Url="/websocket/test"
+ Ws=<0.276.0>
+ Sid=<<"8a0c194be574d56b0b1546d08a3bd8510989b291">>
+  State=[]
+
+
+=INFO REPORT==== 12-Aug-2012::13:23:44 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::13:23:44 ===
+GET /my/test [lxw] 200 5ms
+
+=INFO REPORT==== 12-Aug-2012::13:23:44 ===
+lxw_test_websocket3:handle_join Url="/websocket/test"
+ Ws=<0.281.0>
+ Sid=<<"0d2d287fa9953173c5568f66109f64113d0becf7">>
+  State=[{<0.276.0>,<<"8a0c194be574d56b0b1546d08a3bd8510989b291">>}]
+
+
+=INFO REPORT==== 12-Aug-2012::13:23:49 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::13:23:49 ===
+lxw_my_controller4:Session=session
+
+
+=INFO REPORT==== 12-Aug-2012::13:23:49 ===
+GET /my/hello [lxw] 200 1ms
+
+=INFO REPORT==== 12-Aug-2012::13:24:08 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::13:24:08 ===
+GET /my/test/ [lxw] 200 9ms
+
+=INFO REPORT==== 12-Aug-2012::13:24:08 ===
+lxw_test_websocket3:handle_close Url="/websocket/test"
+ Ws=<0.276.0>
+ Sid=<<"8a0c194be574d56b0b1546d08a3bd8510989b291">>
+  State=[{<0.281.0>,<<"0d2d287fa9953173c5568f66109f64113d0becf7">>},
+         {<0.276.0>,<<"8a0c194be574d56b0b1546d08a3bd8510989b291">>}]
+
+
+=INFO REPORT==== 12-Aug-2012::13:24:08 ===
+lxw_test_websocket3:handle_join Url="/websocket/test"
+ Ws=<0.287.0>
+ Sid=<<"8a0c194be574d56b0b1546d08a3bd8510989b291">>
+  State=[{<0.281.0>,<<"0d2d287fa9953173c5568f66109f64113d0becf7">>}]
+

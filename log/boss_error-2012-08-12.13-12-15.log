@@ -1,0 +1,22 @@
+
+=INFO REPORT==== 12-Aug-2012::13:12:15 ===
+Starting Boss in development mode....
+
+=INFO REPORT==== 12-Aug-2012::13:12:15 ===
+Starting master services on 'lxw@jason-lxw'
+
+=INFO REPORT==== 12-Aug-2012::13:12:15 ===
+SSL:[]
+
+=INFO REPORT==== 12-Aug-2012::13:12:15 ===
+Starting cowboy... on 'lxw@jason-lxw'
+
+=INFO REPORT==== 12-Aug-2012::13:12:15 ===
+Starting http listener... on 8001 
+
+=INFO REPORT==== 12-Aug-2012::13:12:15 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=ERROR REPORT==== 12-Aug-2012::13:12:15 ===
+Execution of "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/init/lxw_init.erl" failed: {atomic,
+                                                                                      ok}

@@ -1,0 +1,325 @@
+
+=INFO REPORT==== 12-Aug-2012::20:42:51 ===
+Starting Boss in development mode....
+
+=INFO REPORT==== 12-Aug-2012::20:42:51 ===
+Starting master services on 'lxw@jason-lxw'
+
+=INFO REPORT==== 12-Aug-2012::20:42:51 ===
+SSL:[]
+
+=INFO REPORT==== 12-Aug-2012::20:42:51 ===
+Starting cowboy... on 'lxw@jason-lxw'
+
+=INFO REPORT==== 12-Aug-2012::20:42:51 ===
+Starting http listener... on 8001 
+
+=INFO REPORT==== 12-Aug-2012::20:42:51 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::20:42:53 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::20:42:53 ===
+GET /my/testjson [lxw] 200 8ms
+
+=INFO REPORT==== 12-Aug-2012::20:44:47 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::20:44:47 ===
+GET /my/testjson [lxw] 200 33ms
+
+=INFO REPORT==== 12-Aug-2012::20:54:51 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::20:54:51 ===
+GET /my/home [lxw] 302 19ms
+
+=INFO REPORT==== 12-Aug-2012::20:54:51 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::20:54:51 ===
+lxw_my_controller3:index Session="86ef72cb8288730865cc4cf7f61d6c637d24ce82"
+
+
+=INFO REPORT==== 12-Aug-2012::20:54:51 ===
+GET /my/index [lxw] 200 24ms
+
+=INFO REPORT==== 12-Aug-2012::20:54:52 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::20:54:52 ===
+lxw_my_controller3:login Session="86ef72cb8288730865cc4cf7f61d6c637d24ce82"
+
+
+=INFO REPORT==== 12-Aug-2012::20:54:52 ===
+GET /my/login [lxw] 302 19ms
+
+=INFO REPORT==== 12-Aug-2012::20:54:52 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::20:54:52 ===
+lxw_my_controller3:home Session="86ef72cb8288730865cc4cf7f61d6c637d24ce82"
+
+
+=INFO REPORT==== 12-Aug-2012::20:54:52 ===
+GET /my/home [lxw] 200 52ms
+
+=INFO REPORT==== 12-Aug-2012::20:54:53 ===
+lxw_test_websocket3:handle_join Url="/websocket/test"
+ Ws=<0.298.0>
+ Sid=<<"86ef72cb8288730865cc4cf7f61d6c637d24ce82">>
+  State=[]
+
+
+=INFO REPORT==== 12-Aug-2012::20:54:57 ===
+lxw_test_websocket3:handle_incoming Url="/websocket/test"
+ Ws=<0.298.0>
+ Sid=<<"86ef72cb8288730865cc4cf7f61d6c637d24ce82">>
+ Message=<<"{ \"employees\" : [{ \"firstName\":\"Bill\" , \"lastName\":\"Gates\" },{ \"firstName\":\"George\" , \"lastName\":\"Bush\" },{ \"firstName\":\"Thomas\" , \"lastName\":\"Carter\" } ]}">>
+  State=[{<0.298.0>,<<"86ef72cb8288730865cc4cf7f61d6c637d24ce82">>}]
+
+
+=INFO REPORT==== 13-Aug-2012::11:25:07 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 13-Aug-2012::11:25:07 ===
+GET /my/home [lxw] 302 207ms
+
+=INFO REPORT==== 13-Aug-2012::11:25:07 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 13-Aug-2012::11:25:07 ===
+lxw_my_controller3:index Session="3385780b32c9ee2f9eef2c3bf6792c33e0b88d56"
+
+
+=INFO REPORT==== 13-Aug-2012::11:25:07 ===
+GET /my/index [lxw] 200 89ms
+
+=INFO REPORT==== 13-Aug-2012::11:25:16 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 13-Aug-2012::11:25:16 ===
+lxw_my_controller3:login Session="3385780b32c9ee2f9eef2c3bf6792c33e0b88d56"
+
+
+=INFO REPORT==== 13-Aug-2012::11:25:16 ===
+GET /my/login [lxw] 302 16ms
+
+=INFO REPORT==== 13-Aug-2012::11:25:16 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 13-Aug-2012::11:25:16 ===
+lxw_my_controller3:home Session="3385780b32c9ee2f9eef2c3bf6792c33e0b88d56"
+
+
+=INFO REPORT==== 13-Aug-2012::11:25:16 ===
+GET /my/home [lxw] 200 39ms
+
+=INFO REPORT==== 13-Aug-2012::11:25:16 ===
+lxw_test_websocket3:handle_join Url="/websocket/test"
+ Ws=<0.392.0>
+ Sid=<<"3385780b32c9ee2f9eef2c3bf6792c33e0b88d56">>
+  State=[{<0.298.0>,<<"86ef72cb8288730865cc4cf7f61d6c637d24ce82">>}]
+
+
+=INFO REPORT==== 13-Aug-2012::11:25:36 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 13-Aug-2012::11:25:36 ===
+GET /my/home [lxw] 302 24ms
+
+=INFO REPORT==== 13-Aug-2012::11:25:36 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 13-Aug-2012::11:25:36 ===
+lxw_my_controller3:index Session="5b8fbf30260cba40a43ceec7b1b7f44282db170c"
+
+
+=INFO REPORT==== 13-Aug-2012::11:25:36 ===
+GET /my/index [lxw] 200 27ms
+
+=INFO REPORT==== 13-Aug-2012::11:25:43 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 13-Aug-2012::11:25:43 ===
+lxw_my_controller3:login Session="5b8fbf30260cba40a43ceec7b1b7f44282db170c"
+
+
+=INFO REPORT==== 13-Aug-2012::11:25:43 ===
+GET /my/login [lxw] 302 24ms
+
+=INFO REPORT==== 13-Aug-2012::11:25:43 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 13-Aug-2012::11:25:43 ===
+lxw_my_controller3:home Session="5b8fbf30260cba40a43ceec7b1b7f44282db170c"
+
+
+=INFO REPORT==== 13-Aug-2012::11:25:43 ===
+GET /my/home [lxw] 200 27ms
+
+=INFO REPORT==== 13-Aug-2012::11:25:43 ===
+lxw_test_websocket3:handle_join Url="/websocket/test"
+ Ws=<0.406.0>
+ Sid=<<"5b8fbf30260cba40a43ceec7b1b7f44282db170c">>
+  State=[{<0.392.0>,<<"3385780b32c9ee2f9eef2c3bf6792c33e0b88d56">>},
+         {<0.298.0>,<<"86ef72cb8288730865cc4cf7f61d6c637d24ce82">>}]
+
+
+=INFO REPORT==== 13-Aug-2012::11:25:50 ===
+lxw_test_websocket3:handle_incoming Url="/websocket/test"
+ Ws=<0.406.0>
+ Sid=<<"5b8fbf30260cba40a43ceec7b1b7f44282db170c">>
+ Message=<<"{ \"employees\" : [{ \"firstName\":\"Bill\" , \"lastName\":\"Gates\" },{ \"firstName\":\"George\" , \"lastName\":\"Bush\" },{ \"firstName\":\"Thomas\" , \"lastName\":\"Carter\" } ]}">>
+  State=[{<0.392.0>,<<"3385780b32c9ee2f9eef2c3bf6792c33e0b88d56">>},
+         {<0.298.0>,<<"86ef72cb8288730865cc4cf7f61d6c637d24ce82">>},
+         {<0.406.0>,<<"5b8fbf30260cba40a43ceec7b1b7f44282db170c">>}]
+
+
+=INFO REPORT==== 13-Aug-2012::11:26:07 ===
+lxw_test_websocket3:handle_incoming Url="/websocket/test"
+ Ws=<0.406.0>
+ Sid=<<"5b8fbf30260cba40a43ceec7b1b7f44282db170c">>
+ Message=<<"{ \"employees\" : [{ \"firstName\":\"Bill\" , \"lastName\":\"Gates\" },{ \"firstName\":\"George\" , \"lastName\":\"Bush\" },{ \"firstName\":\"Thomas\" , \"lastName\":\"Carter\" } ]}">>
+  State=[{<0.392.0>,<<"3385780b32c9ee2f9eef2c3bf6792c33e0b88d56">>},
+         {<0.298.0>,<<"86ef72cb8288730865cc4cf7f61d6c637d24ce82">>},
+         {<0.406.0>,<<"5b8fbf30260cba40a43ceec7b1b7f44282db170c">>}]
+
+
+=INFO REPORT==== 13-Aug-2012::11:26:18 ===
+lxw_test_websocket3:handle_incoming Url="/websocket/test"
+ Ws=<0.392.0>
+ Sid=<<"3385780b32c9ee2f9eef2c3bf6792c33e0b88d56">>
+ Message=<<"{ \"employees\" : [{ \"firstName\":\"Bill\" , \"lastName\":\"Gates\" },{ \"firstName\":\"George\" , \"lastName\":\"Bush\" },{ \"firstName\":\"Thomas\" , \"lastName\":\"Carter\" } ]}">>
+  State=[{<0.392.0>,<<"3385780b32c9ee2f9eef2c3bf6792c33e0b88d56">>},
+         {<0.298.0>,<<"86ef72cb8288730865cc4cf7f61d6c637d24ce82">>},
+         {<0.406.0>,<<"5b8fbf30260cba40a43ceec7b1b7f44282db170c">>}]
+
+
+=INFO REPORT==== 13-Aug-2012::11:26:22 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 13-Aug-2012::11:26:22 ===
+lxw_my_controller3:home Session="3385780b32c9ee2f9eef2c3bf6792c33e0b88d56"
+
+
+=INFO REPORT==== 13-Aug-2012::11:26:22 ===
+GET /my/home [lxw] 200 30ms
+
+=INFO REPORT==== 13-Aug-2012::11:26:22 ===
+lxw_test_websocket3:handle_close Url="/websocket/test"
+ Ws=<0.392.0>
+ Sid=<<"3385780b32c9ee2f9eef2c3bf6792c33e0b88d56">>
+  State=[{<0.392.0>,<<"3385780b32c9ee2f9eef2c3bf6792c33e0b88d56">>},
+         {<0.298.0>,<<"86ef72cb8288730865cc4cf7f61d6c637d24ce82">>},
+         {<0.406.0>,<<"5b8fbf30260cba40a43ceec7b1b7f44282db170c">>}]
+
+
+=INFO REPORT==== 13-Aug-2012::11:26:22 ===
+lxw_test_websocket3:handle_join Url="/websocket/test"
+ Ws=<0.412.0>
+ Sid=<<"3385780b32c9ee2f9eef2c3bf6792c33e0b88d56">>
+  State=[{<0.298.0>,<<"86ef72cb8288730865cc4cf7f61d6c637d24ce82">>},
+         {<0.406.0>,<<"5b8fbf30260cba40a43ceec7b1b7f44282db170c">>}]
+
+
+=INFO REPORT==== 13-Aug-2012::11:26:27 ===
+lxw_test_websocket3:handle_incoming Url="/websocket/test"
+ Ws=<0.412.0>
+ Sid=<<"3385780b32c9ee2f9eef2c3bf6792c33e0b88d56">>
+ Message=<<"{ \"employees\" : [{ \"firstName\":\"Bill\" , \"lastName\":\"Gates\" },{ \"firstName\":\"George\" , \"lastName\":\"Bush\" },{ \"firstName\":\"Thomas\" , \"lastName\":\"Carter\" } ]}">>
+  State=[{<0.298.0>,<<"86ef72cb8288730865cc4cf7f61d6c637d24ce82">>},
+         {<0.412.0>,<<"3385780b32c9ee2f9eef2c3bf6792c33e0b88d56">>},
+         {<0.406.0>,<<"5b8fbf30260cba40a43ceec7b1b7f44282db170c">>}]
+
+
+=INFO REPORT==== 13-Aug-2012::11:26:33 ===
+lxw_test_websocket3:handle_incoming Url="/websocket/test"
+ Ws=<0.412.0>
+ Sid=<<"3385780b32c9ee2f9eef2c3bf6792c33e0b88d56">>
+ Message=<<"{ \"employees\" : [{ \"firstName\":\"Bill\" , \"lastName\":\"Gates\" },{ \"firstName\":\"George\" , \"lastName\":\"Bush\" },{ \"firstName\":\"Thomas\" , \"lastName\":\"Carter\" } ]}">>
+  State=[{<0.298.0>,<<"86ef72cb8288730865cc4cf7f61d6c637d24ce82">>},
+         {<0.412.0>,<<"3385780b32c9ee2f9eef2c3bf6792c33e0b88d56">>},
+         {<0.406.0>,<<"5b8fbf30260cba40a43ceec7b1b7f44282db170c">>}]
+
+
+=INFO REPORT==== 13-Aug-2012::11:26:34 ===
+lxw_test_websocket3:handle_incoming Url="/websocket/test"
+ Ws=<0.412.0>
+ Sid=<<"3385780b32c9ee2f9eef2c3bf6792c33e0b88d56">>
+ Message=<<"{ \"employees\" : [{ \"firstName\":\"Bill\" , \"lastName\":\"Gates\" },{ \"firstName\":\"George\" , \"lastName\":\"Bush\" },{ \"firstName\":\"Thomas\" , \"lastName\":\"Carter\" } ]}">>
+  State=[{<0.298.0>,<<"86ef72cb8288730865cc4cf7f61d6c637d24ce82">>},
+         {<0.412.0>,<<"3385780b32c9ee2f9eef2c3bf6792c33e0b88d56">>},
+         {<0.406.0>,<<"5b8fbf30260cba40a43ceec7b1b7f44282db170c">>}]
+
+
+=INFO REPORT==== 13-Aug-2012::11:26:34 ===
+lxw_test_websocket3:handle_incoming Url="/websocket/test"
+ Ws=<0.412.0>
+ Sid=<<"3385780b32c9ee2f9eef2c3bf6792c33e0b88d56">>
+ Message=<<"{ \"employees\" : [{ \"firstName\":\"Bill\" , \"lastName\":\"Gates\" },{ \"firstName\":\"George\" , \"lastName\":\"Bush\" },{ \"firstName\":\"Thomas\" , \"lastName\":\"Carter\" } ]}">>
+  State=[{<0.298.0>,<<"86ef72cb8288730865cc4cf7f61d6c637d24ce82">>},
+         {<0.412.0>,<<"3385780b32c9ee2f9eef2c3bf6792c33e0b88d56">>},
+         {<0.406.0>,<<"5b8fbf30260cba40a43ceec7b1b7f44282db170c">>}]
+
+
+=INFO REPORT==== 13-Aug-2012::11:26:34 ===
+lxw_test_websocket3:handle_incoming Url="/websocket/test"
+ Ws=<0.412.0>
+ Sid=<<"3385780b32c9ee2f9eef2c3bf6792c33e0b88d56">>
+ Message=<<"{ \"employees\" : [{ \"firstName\":\"Bill\" , \"lastName\":\"Gates\" },{ \"firstName\":\"George\" , \"lastName\":\"Bush\" },{ \"firstName\":\"Thomas\" , \"lastName\":\"Carter\" } ]}">>
+  State=[{<0.298.0>,<<"86ef72cb8288730865cc4cf7f61d6c637d24ce82">>},
+         {<0.412.0>,<<"3385780b32c9ee2f9eef2c3bf6792c33e0b88d56">>},
+         {<0.406.0>,<<"5b8fbf30260cba40a43ceec7b1b7f44282db170c">>}]
+
+
+=INFO REPORT==== 13-Aug-2012::11:26:35 ===
+lxw_test_websocket3:handle_incoming Url="/websocket/test"
+ Ws=<0.412.0>
+ Sid=<<"3385780b32c9ee2f9eef2c3bf6792c33e0b88d56">>
+ Message=<<"{ \"employees\" : [{ \"firstName\":\"Bill\" , \"lastName\":\"Gates\" },{ \"firstName\":\"George\" , \"lastName\":\"Bush\" },{ \"firstName\":\"Thomas\" , \"lastName\":\"Carter\" } ]}">>
+  State=[{<0.298.0>,<<"86ef72cb8288730865cc4cf7f61d6c637d24ce82">>},
+         {<0.412.0>,<<"3385780b32c9ee2f9eef2c3bf6792c33e0b88d56">>},
+         {<0.406.0>,<<"5b8fbf30260cba40a43ceec7b1b7f44282db170c">>}]
+
+
+=INFO REPORT==== 13-Aug-2012::11:26:35 ===
+lxw_test_websocket3:handle_incoming Url="/websocket/test"
+ Ws=<0.412.0>
+ Sid=<<"3385780b32c9ee2f9eef2c3bf6792c33e0b88d56">>
+ Message=<<"{ \"employees\" : [{ \"firstName\":\"Bill\" , \"lastName\":\"Gates\" },{ \"firstName\":\"George\" , \"lastName\":\"Bush\" },{ \"firstName\":\"Thomas\" , \"lastName\":\"Carter\" } ]}">>
+  State=[{<0.298.0>,<<"86ef72cb8288730865cc4cf7f61d6c637d24ce82">>},
+         {<0.412.0>,<<"3385780b32c9ee2f9eef2c3bf6792c33e0b88d56">>},
+         {<0.406.0>,<<"5b8fbf30260cba40a43ceec7b1b7f44282db170c">>}]
+
+
+=INFO REPORT==== 13-Aug-2012::11:26:35 ===
+lxw_test_websocket3:handle_incoming Url="/websocket/test"
+ Ws=<0.412.0>
+ Sid=<<"3385780b32c9ee2f9eef2c3bf6792c33e0b88d56">>
+ Message=<<"{ \"employees\" : [{ \"firstName\":\"Bill\" , \"lastName\":\"Gates\" },{ \"firstName\":\"George\" , \"lastName\":\"Bush\" },{ \"firstName\":\"Thomas\" , \"lastName\":\"Carter\" } ]}">>
+  State=[{<0.298.0>,<<"86ef72cb8288730865cc4cf7f61d6c637d24ce82">>},
+         {<0.412.0>,<<"3385780b32c9ee2f9eef2c3bf6792c33e0b88d56">>},
+         {<0.406.0>,<<"5b8fbf30260cba40a43ceec7b1b7f44282db170c">>}]
+
+
+=INFO REPORT==== 13-Aug-2012::11:26:35 ===
+lxw_test_websocket3:handle_incoming Url="/websocket/test"
+ Ws=<0.412.0>
+ Sid=<<"3385780b32c9ee2f9eef2c3bf6792c33e0b88d56">>
+ Message=<<"{ \"employees\" : [{ \"firstName\":\"Bill\" , \"lastName\":\"Gates\" },{ \"firstName\":\"George\" , \"lastName\":\"Bush\" },{ \"firstName\":\"Thomas\" , \"lastName\":\"Carter\" } ]}">>
+  State=[{<0.298.0>,<<"86ef72cb8288730865cc4cf7f61d6c637d24ce82">>},
+         {<0.412.0>,<<"3385780b32c9ee2f9eef2c3bf6792c33e0b88d56">>},
+         {<0.406.0>,<<"5b8fbf30260cba40a43ceec7b1b7f44282db170c">>}]
+
+
+=INFO REPORT==== 13-Aug-2012::11:26:43 ===
+lxw_test_websocket3:handle_incoming Url="/websocket/test"
+ Ws=<0.406.0>
+ Sid=<<"5b8fbf30260cba40a43ceec7b1b7f44282db170c">>
+ Message=<<"{ \"employees\" : [{ \"firstName\":\"Bill\" , \"lastName\":\"Gates\" },{ \"firstName\":\"George\" , \"lastName\":\"Bush\" },{ \"firstName\":\"Thomas\" , \"lastName\":\"Carter\" } ]}">>
+  State=[{<0.298.0>,<<"86ef72cb8288730865cc4cf7f61d6c637d24ce82">>},
+         {<0.412.0>,<<"3385780b32c9ee2f9eef2c3bf6792c33e0b88d56">>},
+         {<0.406.0>,<<"5b8fbf30260cba40a43ceec7b1b7f44282db170c">>}]
+

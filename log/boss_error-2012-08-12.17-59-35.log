@@ -1,0 +1,54 @@
+
+=INFO REPORT==== 12-Aug-2012::17:59:35 ===
+Starting Boss in development mode....
+
+=INFO REPORT==== 12-Aug-2012::17:59:35 ===
+Starting master services on 'lxw@jason-lxw'
+
+=INFO REPORT==== 12-Aug-2012::17:59:35 ===
+SSL:[]
+
+=INFO REPORT==== 12-Aug-2012::17:59:35 ===
+Starting cowboy... on 'lxw@jason-lxw'
+
+=INFO REPORT==== 12-Aug-2012::17:59:35 ===
+Starting http listener... on 8001 
+
+=INFO REPORT==== 12-Aug-2012::17:59:35 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::17:59:46 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::17:59:46 ===
+lxw_my_controller3:index Session="4d5f285c69407384ed6d3d9fe4d1a900b68e3f73"
+
+
+=INFO REPORT==== 12-Aug-2012::17:59:46 ===
+GET /my/index [lxw] 200 8ms
+
+=INFO REPORT==== 12-Aug-2012::17:59:53 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=ERROR REPORT==== 12-Aug-2012::17:59:53 ===
+{undef,[{mnesia,dirty_index_red,
+                [session,"4d5f285c69407384ed6d3d9fe4d1a900b68e3f73",4]},
+        {lxw_my_controller,before_,2},
+        {boss_web_controller,execute_action,5},
+        {boss_web_controller,process_request,5},
+        {timer,tc,3},
+        {boss_web_controller,handle_request,3},
+        {mochicow_upgrade,upgrade,4},
+        {cowboy_http_protocol,upgrade_protocol,3}]}
+
+=ERROR REPORT==== 12-Aug-2012::17:59:53 ===
+GET /my/home [lxw] 500 1ms
+
+=INFO REPORT==== 12-Aug-2012::18:00:26 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=ERROR REPORT==== 12-Aug-2012::18:00:26 ===
+{aborted,{badarg,[session,"4d5f285c69407384ed6d3d9fe4d1a900b68e3f73",4]}}
+
+=ERROR REPORT==== 12-Aug-2012::18:00:26 ===
+GET /my/home [lxw] 500 41ms

@@ -1,0 +1,36 @@
+
+=INFO REPORT==== 11-Aug-2012::11:37:04 ===
+Starting Boss in development mode....
+
+=INFO REPORT==== 11-Aug-2012::11:37:04 ===
+Starting master services on 'lxw@jason-lxw'
+
+=INFO REPORT==== 11-Aug-2012::11:37:04 ===
+SSL:[]
+
+=INFO REPORT==== 11-Aug-2012::11:37:04 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 11-Aug-2012::11:39:00 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=ERROR REPORT==== 11-Aug-2012::11:39:00 ===
+GET /websocket/foobar [lxw] 404 0ms
+
+=INFO REPORT==== 11-Aug-2012::11:39:45 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=ERROR REPORT==== 11-Aug-2012::11:39:45 ===
+GET /lxw/test [lxw] 404 0ms
+
+=INFO REPORT==== 11-Aug-2012::11:40:40 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=ERROR REPORT==== 11-Aug-2012::11:40:40 ===
+GET /websocket/lxw [lxw] 404 0ms
+
+=INFO REPORT==== 11-Aug-2012::11:41:49 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=ERROR REPORT==== 11-Aug-2012::11:41:49 ===
+GET /websocket/test [lxw] 404 0ms

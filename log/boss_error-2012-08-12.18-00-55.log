@@ -1,0 +1,84 @@
+
+=INFO REPORT==== 12-Aug-2012::18:00:55 ===
+Starting Boss in development mode....
+
+=INFO REPORT==== 12-Aug-2012::18:00:55 ===
+Starting master services on 'lxw@jason-lxw'
+
+=INFO REPORT==== 12-Aug-2012::18:00:56 ===
+SSL:[]
+
+=INFO REPORT==== 12-Aug-2012::18:00:56 ===
+Starting cowboy... on 'lxw@jason-lxw'
+
+=INFO REPORT==== 12-Aug-2012::18:00:56 ===
+Starting http listener... on 8001 
+
+=INFO REPORT==== 12-Aug-2012::18:00:56 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::18:00:59 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=ERROR REPORT==== 12-Aug-2012::18:00:59 ===
+{aborted,{badarg,[session,"795f75f5876e77d3dc07e035a6dddf2b5da369d0",4]}}
+
+=ERROR REPORT==== 12-Aug-2012::18:00:59 ===
+GET /my/home [lxw] 500 22ms
+
+=INFO REPORT==== 12-Aug-2012::18:23:48 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::18:23:48 ===
+lxw_my_controller3:login Session="795f75f5876e77d3dc07e035a6dddf2b5da369d0"
+
+
+=INFO REPORT==== 12-Aug-2012::18:23:48 ===
+GET /my/login [lxw] 302 23ms
+
+=INFO REPORT==== 12-Aug-2012::18:23:48 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::18:23:48 ===
+lxw_my_controller3:index Session="795f75f5876e77d3dc07e035a6dddf2b5da369d0"
+
+
+=INFO REPORT==== 12-Aug-2012::18:23:48 ===
+GET /my/index [lxw] 200 32ms
+
+=INFO REPORT==== 12-Aug-2012::18:23:52 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::18:23:52 ===
+lxw_my_controller3:login Session="795f75f5876e77d3dc07e035a6dddf2b5da369d0"
+
+
+=INFO REPORT==== 12-Aug-2012::18:23:52 ===
+GET /my/login [lxw] 302 16ms
+
+=INFO REPORT==== 12-Aug-2012::18:23:52 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=ERROR REPORT==== 12-Aug-2012::18:23:52 ===
+{aborted,{badarg,[session,"795f75f5876e77d3dc07e035a6dddf2b5da369d0",4]}}
+
+=ERROR REPORT==== 12-Aug-2012::18:23:52 ===
+GET /my/home [lxw] 500 40ms
+
+=INFO REPORT==== 12-Aug-2012::18:25:23 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=ERROR REPORT==== 12-Aug-2012::18:25:23 ===
+{aborted,{badarg,[session,"795f75f5876e77d3dc07e035a6dddf2b5da369d0",4]}}
+
+=ERROR REPORT==== 12-Aug-2012::18:25:23 ===
+GET /my/home [lxw] 500 42ms
+
+=INFO REPORT==== 12-Aug-2012::18:25:48 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=ERROR REPORT==== 12-Aug-2012::18:25:48 ===
+{aborted,{badarg,[session,"795f75f5876e77d3dc07e035a6dddf2b5da369d0",4]}}
+
+=ERROR REPORT==== 12-Aug-2012::18:25:48 ===
+GET /my/home [lxw] 500 38ms

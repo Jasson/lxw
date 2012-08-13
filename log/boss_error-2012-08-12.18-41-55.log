@@ -1,0 +1,122 @@
+
+=INFO REPORT==== 12-Aug-2012::18:41:55 ===
+Starting Boss in development mode....
+
+=INFO REPORT==== 12-Aug-2012::18:41:55 ===
+Starting master services on 'lxw@jason-lxw'
+
+=INFO REPORT==== 12-Aug-2012::18:41:55 ===
+SSL:[]
+
+=INFO REPORT==== 12-Aug-2012::18:41:55 ===
+Starting cowboy... on 'lxw@jason-lxw'
+
+=INFO REPORT==== 12-Aug-2012::18:41:55 ===
+Starting http listener... on 8001 
+
+=INFO REPORT==== 12-Aug-2012::18:41:55 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::18:41:59 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::18:41:59 ===
+GET /my/home [lxw] 302 1ms
+
+=INFO REPORT==== 12-Aug-2012::18:41:59 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::18:41:59 ===
+lxw_my_controller3:index Session="02c497f3b6a2ef4d99f85287c37d8ff6254d3411"
+
+
+=INFO REPORT==== 12-Aug-2012::18:41:59 ===
+GET /my/index [lxw] 200 10ms
+
+=INFO REPORT==== 12-Aug-2012::18:42:00 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::18:42:00 ===
+lxw_my_controller3:login Session="02c497f3b6a2ef4d99f85287c37d8ff6254d3411"
+
+
+=INFO REPORT==== 12-Aug-2012::18:42:00 ===
+GET /my/login [lxw] 302 2ms
+
+=INFO REPORT==== 12-Aug-2012::18:42:00 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::18:42:00 ===
+lxw_my_controller3:home Session="02c497f3b6a2ef4d99f85287c37d8ff6254d3411"
+
+
+=INFO REPORT==== 12-Aug-2012::18:42:00 ===
+GET /my/home [lxw] 200 6ms
+
+=INFO REPORT==== 12-Aug-2012::18:42:00 ===
+lxw_test_websocket3:handle_join Url="/websocket/test"
+ Ws=<0.281.0>
+ Sid=<<"02c497f3b6a2ef4d99f85287c37d8ff6254d3411">>
+  State=[]
+
+
+=ERROR REPORT==== 12-Aug-2012::18:42:00 ===
+** Boss Service Handler lxw_test_websocket terminating in join/0
+   for the reason error:badarg
+ServiceUrl: "/websocket/test"
+WebSocketId: <0.281.0>
+SessionId  : <<"02c497f3b6a2ef4d99f85287c37d8ff6254d3411">>
+State    : {state,{dict,0,16,16,8,80,48,
+                        {[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},
+                        {{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]}}}}
+** Stacktrace: [{lxw_test_websocket,handle_join,4},
+                {boss_service_worker,handle_call,3},
+                {gen_server,handle_msg,5},
+                {proc_lib,init_p_do_apply,3}]
+
+
+=INFO REPORT==== 12-Aug-2012::18:42:00 ===
+lxw_test_websocket3:terminate Reason={bad_return_value,ok}, State=[]
+
+
+=ERROR REPORT==== 12-Aug-2012::18:42:00 ===
+** Generic server lxw_test_websocket terminating 
+** Last message in was {join_service,"/websocket/test",<0.281.0>,
+                                     <<"02c497f3b6a2ef4d99f85287c37d8ff6254d3411">>}
+** When Server state == {state,lxw_test_websocket,
+                            {state,
+                                {dict,0,16,16,8,80,48,
+                                    {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                     [],[],[]},
+                                    {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]}}}}}
+** Reason for termination == 
+** {bad_return_value,ok}
+
+=ERROR REPORT==== 12-Aug-2012::18:42:00 ===
+** Generic server boss_websocket_router terminating 
+** Last message in was {'$gen_cast',
+                           {join_service,<<"/websocket/test">>,<0.281.0>,
+                               <<"02c497f3b6a2ef4d99f85287c37d8ff6254d3411">>}}
+** When Server state == {state,{dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               {dict,2,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],
+                                       [[<<"/websocket/test">>|
+                                         lxw_test_websocket]],
+                                       [],[],[],[],
+                                       [[<<"/websocket/foobar">>|
+                                         lxw_foobar_websocket]],
+                                       [],[],[],[],[],[]}}},
+                               0}
+** Reason for termination == 
+** {{bad_return_value,ok},
+    {gen_server,call,
+                [{global,lxw_test_websocket},
+                 {join_service,"/websocket/test",<0.281.0>,
+                               <<"02c497f3b6a2ef4d99f85287c37d8ff6254d3411">>}]}}

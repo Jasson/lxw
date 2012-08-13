@@ -1,0 +1,61 @@
+
+=INFO REPORT==== 12-Aug-2012::18:42:51 ===
+Starting Boss in development mode....
+
+=INFO REPORT==== 12-Aug-2012::18:42:51 ===
+Starting master services on 'lxw@jason-lxw'
+
+=INFO REPORT==== 12-Aug-2012::18:42:51 ===
+SSL:[]
+
+=INFO REPORT==== 12-Aug-2012::18:42:51 ===
+Starting cowboy... on 'lxw@jason-lxw'
+
+=INFO REPORT==== 12-Aug-2012::18:42:51 ===
+Starting http listener... on 8001 
+
+=INFO REPORT==== 12-Aug-2012::18:42:51 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::18:42:54 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::18:42:54 ===
+GET /my/home [lxw] 302 1ms
+
+=INFO REPORT==== 12-Aug-2012::18:42:54 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::18:42:54 ===
+lxw_my_controller3:index Session="f90af8f600a2f217fa325f61b83fd05525905c99"
+
+
+=INFO REPORT==== 12-Aug-2012::18:42:54 ===
+GET /my/index [lxw] 200 13ms
+
+=INFO REPORT==== 12-Aug-2012::18:42:55 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::18:42:55 ===
+lxw_my_controller3:login Session="f90af8f600a2f217fa325f61b83fd05525905c99"
+
+
+=INFO REPORT==== 12-Aug-2012::18:42:55 ===
+GET /my/login [lxw] 302 2ms
+
+=INFO REPORT==== 12-Aug-2012::18:42:55 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::18:42:55 ===
+lxw_my_controller3:home Session="f90af8f600a2f217fa325f61b83fd05525905c99"
+
+
+=INFO REPORT==== 12-Aug-2012::18:42:55 ===
+GET /my/home [lxw] 200 6ms
+
+=INFO REPORT==== 12-Aug-2012::18:42:55 ===
+lxw_test_websocket3:handle_join Url="/websocket/test"
+ Ws=<0.280.0>
+ Sid=<<"f90af8f600a2f217fa325f61b83fd05525905c99">>
+  State=[]
+

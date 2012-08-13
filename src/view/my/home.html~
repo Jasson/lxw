@@ -1,0 +1,52 @@
+<html>
+<body>
+<p id="socketStatus"></p>
+<input type="text" id="inputMessage" value="hello websocket">
+<button id="sendButton">send</button>
+sssssssssssdraw_draw_protocol_websocket
+</body>
+{% block link %}      
+{% endblock %}
+
+</html>
+
+<script type="text/javascript">
+    //alert(window.WebSocket);
+    socket = new WebSocket("ws://192.168.18.117:8001/websocket/test", "some_service_name");
+    socket.onopen = function(){
+        //alert("connected");
+        //socket.send("accepting....");
+        updateSocketStatus("Connected to WebSocket ");
+    };
+        
+
+    socket.onmessage = function(e){
+        //alert("message");
+        //alert(e.data);
+        updateSocketStatus("update to WebSocket "+e.data);
+        //updateSocketStatus("update to WebSocket "+dataReturned(e.data));
+    };
+    
+    socket.onclose = function(e){
+     //   alert("close");
+     //   alert(e.data);
+        updateSocketStatus("close "+e.data);
+    };
+
+    function updateSocketStatus(message){
+        document.getElementById("socketStatus").innerHTML = message;
+    }
+/**
+*/
+    window.onload = function(){
+        document.getElementById("sendButton").onclick = function() {
+            var message = document.getElementById("inputMessage").value;
+var txt = '{ "employees" : [' +
+'{ "firstName":"Bill" , "lastName":"Gates" },' +
+'{ "firstName":"George" , "lastName":"Bush" },' +
+'{ "firstName":"Thomas" , "lastName":"Carter" } ]}';
+            socket.send(message);
+        }
+    };
+</script>
+

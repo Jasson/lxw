@@ -1,0 +1,251 @@
+
+=INFO REPORT==== 12-Aug-2012::18:39:19 ===
+Starting Boss in development mode....
+
+=INFO REPORT==== 12-Aug-2012::18:39:19 ===
+Starting master services on 'lxw@jason-lxw'
+
+=INFO REPORT==== 12-Aug-2012::18:39:19 ===
+SSL:[]
+
+=INFO REPORT==== 12-Aug-2012::18:39:19 ===
+Starting cowboy... on 'lxw@jason-lxw'
+
+=INFO REPORT==== 12-Aug-2012::18:39:19 ===
+Starting http listener... on 8001 
+
+=INFO REPORT==== 12-Aug-2012::18:39:19 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::18:39:33 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::18:39:33 ===
+GET /my/home [lxw] 302 1ms
+
+=INFO REPORT==== 12-Aug-2012::18:39:33 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::18:39:33 ===
+lxw_my_controller3:index Session="9bd6c1d281104464a6842f48672dbae437633725"
+
+
+=INFO REPORT==== 12-Aug-2012::18:39:33 ===
+GET /my/index [lxw] 200 8ms
+
+=INFO REPORT==== 12-Aug-2012::18:39:38 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::18:39:38 ===
+lxw_my_controller3:login Session="9bd6c1d281104464a6842f48672dbae437633725"
+
+
+=INFO REPORT==== 12-Aug-2012::18:39:38 ===
+GET /my/login [lxw] 302 3ms
+
+=INFO REPORT==== 12-Aug-2012::18:39:38 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::18:39:38 ===
+lxw_my_controller3:home Session="9bd6c1d281104464a6842f48672dbae437633725"
+
+
+=INFO REPORT==== 12-Aug-2012::18:39:38 ===
+GET /my/home [lxw] 200 5ms
+
+=INFO REPORT==== 12-Aug-2012::18:39:38 ===
+lxw_test_websocket3:handle_join Url="/websocket/test"
+ Ws=<0.297.0>
+ Sid=<<"9bd6c1d281104464a6842f48672dbae437633725">>
+  State=[]
+
+
+=INFO REPORT==== 12-Aug-2012::18:39:48 ===
+lxw_test_websocket3:handle_incoming Url="/websocket/test"
+ Ws=<0.297.0>
+ Sid=<<"9bd6c1d281104464a6842f48672dbae437633725">>
+ Message=<<"hello websocket">>
+  State=[{<0.297.0>,<<"9bd6c1d281104464a6842f48672dbae437633725">>}]
+
+
+=INFO REPORT==== 12-Aug-2012::18:39:50 ===
+lxw_test_websocket3:handle_incoming Url="/websocket/test"
+ Ws=<0.297.0>
+ Sid=<<"9bd6c1d281104464a6842f48672dbae437633725">>
+ Message=<<"hello websockets">>
+  State=[{<0.297.0>,<<"9bd6c1d281104464a6842f48672dbae437633725">>}]
+
+
+=INFO REPORT==== 12-Aug-2012::18:40:10 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::18:40:10 ===
+lxw_my_controller3:home Session="9bd6c1d281104464a6842f48672dbae437633725"
+
+
+=INFO REPORT==== 12-Aug-2012::18:40:10 ===
+GET /my/home [lxw] 200 6ms
+
+=INFO REPORT==== 12-Aug-2012::18:40:10 ===
+lxw_test_websocket3:handle_close Url="/websocket/test"
+ Ws=<0.297.0>
+ Sid=<<"9bd6c1d281104464a6842f48672dbae437633725">>
+  State=[{<0.297.0>,<<"9bd6c1d281104464a6842f48672dbae437633725">>}]
+
+
+=INFO REPORT==== 12-Aug-2012::18:40:10 ===
+lxw_test_websocket3:handle_join Url="/websocket/test"
+ Ws=<0.302.0>
+ Sid=<<"9bd6c1d281104464a6842f48672dbae437633725">>
+  State=[]
+
+
+=INFO REPORT==== 12-Aug-2012::18:40:12 ===
+lxw_test_websocket3:handle_close Url="/websocket/test"
+ Ws=<0.302.0>
+ Sid=<<"9bd6c1d281104464a6842f48672dbae437633725">>
+  State=[{<0.302.0>,<<"9bd6c1d281104464a6842f48672dbae437633725">>}]
+
+
+=INFO REPORT==== 12-Aug-2012::18:40:13 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::18:40:13 ===
+lxw_my_controller3:index Session="9bd6c1d281104464a6842f48672dbae437633725"
+
+
+=INFO REPORT==== 12-Aug-2012::18:40:13 ===
+GET /my/index [lxw] 200 10ms
+
+=INFO REPORT==== 12-Aug-2012::18:40:51 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::18:40:51 ===
+lxw_my_controller3:login Session="9bd6c1d281104464a6842f48672dbae437633725"
+
+
+=INFO REPORT==== 12-Aug-2012::18:40:51 ===
+GET /my/login [lxw] 302 2ms
+
+=INFO REPORT==== 12-Aug-2012::18:40:51 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::18:40:51 ===
+lxw_my_controller3:home Session="9bd6c1d281104464a6842f48672dbae437633725"
+
+
+=INFO REPORT==== 12-Aug-2012::18:40:51 ===
+GET /my/home [lxw] 200 5ms
+
+=INFO REPORT==== 12-Aug-2012::18:40:51 ===
+lxw_test_websocket3:handle_join Url="/websocket/test"
+ Ws=<0.309.0>
+ Sid=<<"9bd6c1d281104464a6842f48672dbae437633725">>
+  State=[]
+
+
+=INFO REPORT==== 12-Aug-2012::18:41:22 ===
+lxw_test_websocket3:handle_close Url="/websocket/test"
+ Ws=<0.309.0>
+ Sid=<<"9bd6c1d281104464a6842f48672dbae437633725">>
+  State=[{<0.309.0>,<<"9bd6c1d281104464a6842f48672dbae437633725">>}]
+
+
+=INFO REPORT==== 12-Aug-2012::18:41:23 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::18:41:23 ===
+lxw_my_controller3:login Session="9bd6c1d281104464a6842f48672dbae437633725"
+
+
+=INFO REPORT==== 12-Aug-2012::18:41:23 ===
+GET /my/login [lxw] 302 5ms
+
+=INFO REPORT==== 12-Aug-2012::18:41:23 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::18:41:23 ===
+lxw_my_controller3:home Session="9bd6c1d281104464a6842f48672dbae437633725"
+
+
+=INFO REPORT==== 12-Aug-2012::18:41:23 ===
+GET /my/home [lxw] 200 6ms
+
+=INFO REPORT==== 12-Aug-2012::18:41:23 ===
+lxw_test_websocket3:handle_join Url="/websocket/test"
+ Ws=<0.315.0>
+ Sid=<<"9bd6c1d281104464a6842f48672dbae437633725">>
+  State=[]
+
+
+=INFO REPORT==== 12-Aug-2012::18:41:30 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::18:41:30 ===
+lxw_my_controller3:home Session="9bd6c1d281104464a6842f48672dbae437633725"
+
+
+=INFO REPORT==== 12-Aug-2012::18:41:30 ===
+GET /my/home [lxw] 200 9ms
+
+=INFO REPORT==== 12-Aug-2012::18:41:30 ===
+lxw_test_websocket3:handle_close Url="/websocket/test"
+ Ws=<0.315.0>
+ Sid=<<"9bd6c1d281104464a6842f48672dbae437633725">>
+  State=[{<0.315.0>,<<"9bd6c1d281104464a6842f48672dbae437633725">>}]
+
+
+=INFO REPORT==== 12-Aug-2012::18:41:30 ===
+lxw_test_websocket3:handle_join Url="/websocket/test"
+ Ws=<0.319.0>
+ Sid=<<"9bd6c1d281104464a6842f48672dbae437633725">>
+  State=[]
+
+
+=INFO REPORT==== 12-Aug-2012::18:41:30 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::18:41:30 ===
+lxw_my_controller3:home Session="9bd6c1d281104464a6842f48672dbae437633725"
+
+
+=INFO REPORT==== 12-Aug-2012::18:41:30 ===
+GET /my/home [lxw] 200 7ms
+
+=INFO REPORT==== 12-Aug-2012::18:41:30 ===
+lxw_test_websocket3:handle_close Url="/websocket/test"
+ Ws=<0.319.0>
+ Sid=<<"9bd6c1d281104464a6842f48672dbae437633725">>
+  State=[{<0.319.0>,<<"9bd6c1d281104464a6842f48672dbae437633725">>}]
+
+
+=INFO REPORT==== 12-Aug-2012::18:41:30 ===
+lxw_test_websocket3:handle_join Url="/websocket/test"
+ Ws=<0.323.0>
+ Sid=<<"9bd6c1d281104464a6842f48672dbae437633725">>
+  State=[]
+
+
+=INFO REPORT==== 12-Aug-2012::18:41:30 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::18:41:30 ===
+lxw_my_controller3:home Session="9bd6c1d281104464a6842f48672dbae437633725"
+
+
+=INFO REPORT==== 12-Aug-2012::18:41:30 ===
+GET /my/home [lxw] 200 5ms
+
+=INFO REPORT==== 12-Aug-2012::18:41:30 ===
+lxw_test_websocket3:handle_close Url="/websocket/test"
+ Ws=<0.323.0>
+ Sid=<<"9bd6c1d281104464a6842f48672dbae437633725">>
+  State=[{<0.323.0>,<<"9bd6c1d281104464a6842f48672dbae437633725">>}]
+
+
+=INFO REPORT==== 12-Aug-2012::18:41:30 ===
+lxw_test_websocket3:handle_join Url="/websocket/test"
+ Ws=<0.326.0>
+ Sid=<<"9bd6c1d281104464a6842f48672dbae437633725">>
+  State=[]
+

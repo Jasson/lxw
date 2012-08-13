@@ -1,0 +1,80 @@
+
+=INFO REPORT==== 12-Aug-2012::09:33:12 ===
+Starting Boss in development mode....
+
+=INFO REPORT==== 12-Aug-2012::09:33:12 ===
+Starting master services on 'lxw@jason-lxw'
+
+=INFO REPORT==== 12-Aug-2012::09:33:12 ===
+SSL:[]
+
+=INFO REPORT==== 12-Aug-2012::09:33:12 ===
+Starting cowboy... on 'lxw@jason-lxw'
+
+=INFO REPORT==== 12-Aug-2012::09:33:12 ===
+Starting http listener... on 8001 
+
+=INFO REPORT==== 12-Aug-2012::09:33:12 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::09:33:24 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::09:33:24 ===
+GET /my/test [lxw] 200 8ms
+
+=ERROR REPORT==== 12-Aug-2012::09:33:30 ===
+** Generic server boss_websocket_router terminating 
+** Last message in was {'$gen_cast',
+                           {join_service,<<"/websocket/test">>,<0.237.0>,
+                               <<"e22a1fc7e0aff384815cd2ed05c2eec877ee3d18">>}}
+** When Server state == {state,{dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               {dict,2,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],
+                                       [[<<"/websocket/test">>|
+                                         lxw_test_websocket]],
+                                       [],[],[],[],
+                                       [[<<"/websocket/foobar">>|
+                                         lxw_foobar_websocket]],
+                                       [],[],[],[],[],[]}}},
+                               0}
+** Reason for termination == 
+** {timeout,
+       {gen_server,call,
+           [{global,lxw_test_websocket},
+            {join_service,"/websocket/test",<0.237.0>,
+                <<"e22a1fc7e0aff384815cd2ed05c2eec877ee3d18">>}]}}
+
+=ERROR REPORT==== 12-Aug-2012::09:33:31 ===
+** Generic server boss_websocket_router terminating 
+** Last message in was {'$gen_cast',
+                           {incoming_msg,<<"/websocket/test">>,<0.237.0>,
+                               <<"e22a1fc7e0aff384815cd2ed05c2eec877ee3d18">>,
+                               <<"hello websocketddd">>}}
+** When Server state == {state,{dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               {dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               0}
+** Reason for termination == 
+** {badarg,[{dict,fetch,
+                  [<<"/websocket/test">>,
+                   {dict,0,16,16,8,80,48,
+                         {[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},
+                         {{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],
+                           []}}}]},
+            {boss_websocket_router,handle_cast,2},
+            {gen_server,handle_msg,5},
+            {proc_lib,init_p_do_apply,3}]}

@@ -1,0 +1,27 @@
+
+=INFO REPORT==== 12-Aug-2012::18:26:16 ===
+Starting Boss in development mode....
+
+=INFO REPORT==== 12-Aug-2012::18:26:16 ===
+Starting master services on 'lxw@jason-lxw'
+
+=INFO REPORT==== 12-Aug-2012::18:26:16 ===
+SSL:[]
+
+=INFO REPORT==== 12-Aug-2012::18:26:16 ===
+Starting cowboy... on 'lxw@jason-lxw'
+
+=INFO REPORT==== 12-Aug-2012::18:26:16 ===
+Starting http listener... on 8001 
+
+=INFO REPORT==== 12-Aug-2012::18:26:16 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::18:26:18 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=ERROR REPORT==== 12-Aug-2012::18:26:18 ===
+{aborted,{badarg,[session,"c0fdff3f1467e420cfb070b28045e79d9bcc1cb8",4]}}
+
+=ERROR REPORT==== 12-Aug-2012::18:26:18 ===
+GET /my/home [lxw] 500 25ms

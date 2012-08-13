@@ -1,0 +1,24 @@
+
+=INFO REPORT==== 12-Aug-2012::09:51:58 ===
+Starting Boss in development mode....
+
+=INFO REPORT==== 12-Aug-2012::09:51:58 ===
+Starting master services on 'lxw@jason-lxw'
+
+=INFO REPORT==== 12-Aug-2012::09:51:58 ===
+SSL:[]
+
+=INFO REPORT==== 12-Aug-2012::09:51:58 ===
+Starting cowboy... on 'lxw@jason-lxw'
+
+=INFO REPORT==== 12-Aug-2012::09:51:58 ===
+Starting http listener... on 8001 
+
+=ERROR REPORT==== 12-Aug-2012::09:51:58 ===
+** Boss Service Handler lxw_test_websocket terminating in init/0
+   for the reason error:undef
+** Stacktrace: [{lxw_test_websocket,init,[]},
+                {boss_service_worker,init,1},
+                {gen_server,init_it,6},
+                {proc_lib,init_p_do_apply,3}]
+

@@ -1,0 +1,104 @@
+
+=INFO REPORT==== 12-Aug-2012::18:30:00 ===
+Starting Boss in development mode....
+
+=INFO REPORT==== 12-Aug-2012::18:30:00 ===
+Starting master services on 'lxw@jason-lxw'
+
+=INFO REPORT==== 12-Aug-2012::18:30:00 ===
+SSL:[]
+
+=INFO REPORT==== 12-Aug-2012::18:30:00 ===
+Starting cowboy... on 'lxw@jason-lxw'
+
+=INFO REPORT==== 12-Aug-2012::18:30:00 ===
+Starting http listener... on 8001 
+
+=INFO REPORT==== 12-Aug-2012::18:30:00 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::18:30:08 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::18:30:08 ===
+lxw_my_controller3:index Session="9bb9d470a21b78d8dc0881e62652b0871b38eb47"
+
+
+=INFO REPORT==== 12-Aug-2012::18:30:08 ===
+GET /my/index [lxw] 200 15ms
+
+=INFO REPORT==== 12-Aug-2012::18:30:12 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::18:30:12 ===
+lxw_my_controller3:login Session="9bb9d470a21b78d8dc0881e62652b0871b38eb47"
+
+
+=INFO REPORT==== 12-Aug-2012::18:30:12 ===
+GET /my/login [lxw] 302 2ms
+
+=INFO REPORT==== 12-Aug-2012::18:30:12 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::18:30:12 ===
+lxw_my_controller3:index Session="9bb9d470a21b78d8dc0881e62652b0871b38eb47"
+
+
+=INFO REPORT==== 12-Aug-2012::18:30:12 ===
+GET /my/index [lxw] 200 6ms
+
+=INFO REPORT==== 12-Aug-2012::18:30:14 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::18:30:14 ===
+lxw_my_controller3:login Session="9bb9d470a21b78d8dc0881e62652b0871b38eb47"
+
+
+=INFO REPORT==== 12-Aug-2012::18:30:14 ===
+GET /my/login [lxw] 302 6ms
+
+=INFO REPORT==== 12-Aug-2012::18:30:14 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::18:30:14 ===
+lxw_my_controller3:home Session="9bb9d470a21b78d8dc0881e62652b0871b38eb47"
+
+
+=INFO REPORT==== 12-Aug-2012::18:30:14 ===
+GET /my/home [lxw] 200 11ms
+
+=INFO REPORT==== 12-Aug-2012::18:31:40 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::18:31:40 ===
+GET /my/test [lxw] 302 1ms
+
+=INFO REPORT==== 12-Aug-2012::18:31:40 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::18:31:40 ===
+lxw_my_controller3:index Session="e8a7ff35856cee40e5a233a15492a05d636eb8ea"
+
+
+=INFO REPORT==== 12-Aug-2012::18:31:40 ===
+GET /my/index [lxw] 200 7ms
+
+=INFO REPORT==== 12-Aug-2012::18:31:56 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::18:31:56 ===
+lxw_my_controller3:login Session="e8a7ff35856cee40e5a233a15492a05d636eb8ea"
+
+
+=INFO REPORT==== 12-Aug-2012::18:31:56 ===
+GET /my/login [lxw] 302 2ms
+
+=INFO REPORT==== 12-Aug-2012::18:31:56 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::18:31:56 ===
+lxw_my_controller3:home Session="e8a7ff35856cee40e5a233a15492a05d636eb8ea"
+
+
+=INFO REPORT==== 12-Aug-2012::18:31:56 ===
+GET /my/home [lxw] 200 6ms

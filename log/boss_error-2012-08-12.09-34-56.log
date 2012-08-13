@@ -1,0 +1,36 @@
+
+=INFO REPORT==== 12-Aug-2012::09:34:56 ===
+Starting Boss in development mode....
+
+=INFO REPORT==== 12-Aug-2012::09:34:56 ===
+Starting master services on 'lxw@jason-lxw'
+
+=INFO REPORT==== 12-Aug-2012::09:34:56 ===
+SSL:[]
+
+=INFO REPORT==== 12-Aug-2012::09:34:56 ===
+Starting cowboy... on 'lxw@jason-lxw'
+
+=INFO REPORT==== 12-Aug-2012::09:34:56 ===
+Starting http listener... on 8001 
+
+=INFO REPORT==== 12-Aug-2012::09:34:56 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::09:35:03 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::09:35:03 ===
+GET /my/test [lxw] 200 6ms
+
+=INFO REPORT==== 12-Aug-2012::09:35:51 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::09:35:51 ===
+GET /my/test [lxw] 200 5ms
+
+=INFO REPORT==== 12-Aug-2012::09:36:11 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::09:36:11 ===
+GET /my/test [lxw] 200 5ms

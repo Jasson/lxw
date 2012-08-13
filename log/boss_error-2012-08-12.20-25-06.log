@@ -1,0 +1,1558 @@
+
+=INFO REPORT==== 12-Aug-2012::20:25:06 ===
+Starting Boss in development mode....
+
+=INFO REPORT==== 12-Aug-2012::20:25:06 ===
+Starting master services on 'lxw@jason-lxw'
+
+=INFO REPORT==== 12-Aug-2012::20:25:06 ===
+SSL:[]
+
+=INFO REPORT==== 12-Aug-2012::20:25:06 ===
+Starting cowboy... on 'lxw@jason-lxw'
+
+=INFO REPORT==== 12-Aug-2012::20:25:06 ===
+Starting http listener... on 8001 
+
+=INFO REPORT==== 12-Aug-2012::20:25:07 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::20:25:14 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::20:25:14 ===
+GET /my/home [lxw] 302 1ms
+
+=INFO REPORT==== 12-Aug-2012::20:25:14 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::20:25:14 ===
+lxw_my_controller3:index Session="127fe4ac92933fa4d33ce88d4e9636fbfa875a75"
+
+
+=INFO REPORT==== 12-Aug-2012::20:25:14 ===
+GET /my/index [lxw] 200 8ms
+
+=INFO REPORT==== 12-Aug-2012::20:25:16 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::20:25:16 ===
+lxw_my_controller3:login Session="127fe4ac92933fa4d33ce88d4e9636fbfa875a75"
+
+
+=INFO REPORT==== 12-Aug-2012::20:25:16 ===
+GET /my/login [lxw] 302 2ms
+
+=INFO REPORT==== 12-Aug-2012::20:25:16 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::20:25:16 ===
+lxw_my_controller3:home Session="127fe4ac92933fa4d33ce88d4e9636fbfa875a75"
+
+
+=INFO REPORT==== 12-Aug-2012::20:25:16 ===
+GET /my/home [lxw] 200 6ms
+
+=INFO REPORT==== 12-Aug-2012::20:27:04 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::20:27:04 ===
+lxw_my_controller3:home Session="127fe4ac92933fa4d33ce88d4e9636fbfa875a75"
+
+
+=INFO REPORT==== 12-Aug-2012::20:27:04 ===
+GET /my/home [lxw] 200 27ms
+
+=INFO REPORT==== 12-Aug-2012::20:27:04 ===
+lxw_test_websocket3:handle_join Url="/websocket/test"
+ Ws=<0.286.0>
+ Sid=<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>
+  State=[]
+
+
+=INFO REPORT==== 12-Aug-2012::20:27:06 ===
+lxw_test_websocket3:handle_incoming Url="/websocket/test"
+ Ws=<0.286.0>
+ Sid=<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>
+ Message=<<"hello websocket">>
+  State=[{<0.286.0>,<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>}]
+
+
+=INFO REPORT==== 12-Aug-2012::20:27:07 ===
+lxw_test_websocket3:handle_incoming Url="/websocket/test"
+ Ws=<0.286.0>
+ Sid=<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>
+ Message=<<"hello websocket">>
+  State=[{<0.286.0>,<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>}]
+
+
+=INFO REPORT==== 12-Aug-2012::20:27:08 ===
+lxw_test_websocket3:handle_incoming Url="/websocket/test"
+ Ws=<0.286.0>
+ Sid=<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>
+ Message=<<"hello websocket">>
+  State=[{<0.286.0>,<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>}]
+
+
+=INFO REPORT==== 12-Aug-2012::20:27:08 ===
+lxw_test_websocket3:handle_incoming Url="/websocket/test"
+ Ws=<0.286.0>
+ Sid=<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>
+ Message=<<"hello websocket">>
+  State=[{<0.286.0>,<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>}]
+
+
+=INFO REPORT==== 12-Aug-2012::20:27:08 ===
+lxw_test_websocket3:handle_incoming Url="/websocket/test"
+ Ws=<0.286.0>
+ Sid=<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>
+ Message=<<"hello websocket">>
+  State=[{<0.286.0>,<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>}]
+
+
+=INFO REPORT==== 12-Aug-2012::20:27:08 ===
+lxw_test_websocket3:handle_incoming Url="/websocket/test"
+ Ws=<0.286.0>
+ Sid=<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>
+ Message=<<"hello websocket">>
+  State=[{<0.286.0>,<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>}]
+
+
+=INFO REPORT==== 12-Aug-2012::20:27:09 ===
+lxw_test_websocket3:handle_incoming Url="/websocket/test"
+ Ws=<0.286.0>
+ Sid=<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>
+ Message=<<"hello websocket">>
+  State=[{<0.286.0>,<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>}]
+
+
+=INFO REPORT==== 12-Aug-2012::20:27:09 ===
+lxw_test_websocket3:handle_incoming Url="/websocket/test"
+ Ws=<0.286.0>
+ Sid=<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>
+ Message=<<"hello websocket">>
+  State=[{<0.286.0>,<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>}]
+
+
+=INFO REPORT==== 12-Aug-2012::20:27:15 ===
+lxw_test_websocket3:handle_incoming Url="/websocket/test"
+ Ws=<0.286.0>
+ Sid=<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>
+ Message=<<"hello websocket">>
+  State=[{<0.286.0>,<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>}]
+
+
+=INFO REPORT==== 12-Aug-2012::20:27:16 ===
+lxw_test_websocket3:handle_incoming Url="/websocket/test"
+ Ws=<0.286.0>
+ Sid=<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>
+ Message=<<"hello websocketsdf">>
+  State=[{<0.286.0>,<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>}]
+
+
+=INFO REPORT==== 12-Aug-2012::20:27:19 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::20:27:19 ===
+GET /my/home [lxw] 302 1ms
+
+=INFO REPORT==== 12-Aug-2012::20:27:19 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::20:27:19 ===
+lxw_my_controller3:index Session="49a5ee29c3e2aea5e1b0d5507612ee279885f87b"
+
+
+=INFO REPORT==== 12-Aug-2012::20:27:19 ===
+GET /my/index [lxw] 200 5ms
+
+=INFO REPORT==== 12-Aug-2012::20:27:21 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::20:27:21 ===
+lxw_my_controller3:login Session="49a5ee29c3e2aea5e1b0d5507612ee279885f87b"
+
+
+=INFO REPORT==== 12-Aug-2012::20:27:21 ===
+GET /my/login [lxw] 302 1ms
+
+=INFO REPORT==== 12-Aug-2012::20:27:21 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::20:27:21 ===
+lxw_my_controller3:home Session="49a5ee29c3e2aea5e1b0d5507612ee279885f87b"
+
+
+=INFO REPORT==== 12-Aug-2012::20:27:21 ===
+GET /my/home [lxw] 200 6ms
+
+=INFO REPORT==== 12-Aug-2012::20:27:21 ===
+lxw_test_websocket3:handle_join Url="/websocket/test"
+ Ws=<0.294.0>
+ Sid=<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>
+  State=[{<0.286.0>,<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>}]
+
+
+=INFO REPORT==== 12-Aug-2012::20:27:22 ===
+lxw_test_websocket3:handle_incoming Url="/websocket/test"
+ Ws=<0.294.0>
+ Sid=<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>
+ Message=<<"hello websocket">>
+  State=[{<0.286.0>,<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>},
+         {<0.294.0>,<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>}]
+
+
+=INFO REPORT==== 12-Aug-2012::20:27:24 ===
+lxw_test_websocket3:handle_incoming Url="/websocket/test"
+ Ws=<0.294.0>
+ Sid=<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>
+ Message=<<"hello websockets">>
+  State=[{<0.286.0>,<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>},
+         {<0.294.0>,<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>}]
+
+
+=INFO REPORT==== 12-Aug-2012::20:27:24 ===
+lxw_test_websocket3:handle_incoming Url="/websocket/test"
+ Ws=<0.294.0>
+ Sid=<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>
+ Message=<<"hello websockets">>
+  State=[{<0.286.0>,<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>},
+         {<0.294.0>,<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>}]
+
+
+=INFO REPORT==== 12-Aug-2012::20:27:26 ===
+lxw_test_websocket3:handle_incoming Url="/websocket/test"
+ Ws=<0.294.0>
+ Sid=<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>
+ Message=<<"hello websocketsd">>
+  State=[{<0.286.0>,<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>},
+         {<0.294.0>,<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>}]
+
+
+=INFO REPORT==== 12-Aug-2012::20:27:33 ===
+lxw_test_websocket3:handle_incoming Url="/websocket/test"
+ Ws=<0.294.0>
+ Sid=<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>
+ Message=<<"hello websocketsd">>
+  State=[{<0.286.0>,<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>},
+         {<0.294.0>,<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>}]
+
+
+=INFO REPORT==== 12-Aug-2012::20:27:33 ===
+lxw_test_websocket3:handle_incoming Url="/websocket/test"
+ Ws=<0.294.0>
+ Sid=<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>
+ Message=<<"hello websocketsd">>
+  State=[{<0.286.0>,<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>},
+         {<0.294.0>,<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>}]
+
+
+=INFO REPORT==== 12-Aug-2012::20:27:34 ===
+lxw_test_websocket3:handle_incoming Url="/websocket/test"
+ Ws=<0.294.0>
+ Sid=<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>
+ Message=<<"hello websocketsd">>
+  State=[{<0.286.0>,<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>},
+         {<0.294.0>,<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>}]
+
+
+=INFO REPORT==== 12-Aug-2012::20:27:35 ===
+lxw_test_websocket3:handle_incoming Url="/websocket/test"
+ Ws=<0.294.0>
+ Sid=<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>
+ Message=<<"hello websocketsd">>
+  State=[{<0.286.0>,<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>},
+         {<0.294.0>,<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>}]
+
+
+=INFO REPORT==== 12-Aug-2012::20:27:35 ===
+lxw_test_websocket3:handle_incoming Url="/websocket/test"
+ Ws=<0.294.0>
+ Sid=<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>
+ Message=<<"hello websocketsd">>
+  State=[{<0.286.0>,<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>},
+         {<0.294.0>,<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>}]
+
+
+=INFO REPORT==== 12-Aug-2012::20:27:35 ===
+lxw_test_websocket3:handle_incoming Url="/websocket/test"
+ Ws=<0.294.0>
+ Sid=<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>
+ Message=<<"hello websocketsd">>
+  State=[{<0.286.0>,<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>},
+         {<0.294.0>,<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>}]
+
+
+=INFO REPORT==== 12-Aug-2012::20:27:36 ===
+lxw_test_websocket3:handle_incoming Url="/websocket/test"
+ Ws=<0.294.0>
+ Sid=<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>
+ Message=<<"hello websocketsd">>
+  State=[{<0.286.0>,<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>},
+         {<0.294.0>,<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>}]
+
+
+=INFO REPORT==== 12-Aug-2012::20:27:37 ===
+lxw_test_websocket3:handle_incoming Url="/websocket/test"
+ Ws=<0.294.0>
+ Sid=<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>
+ Message=<<"hello websocketsd">>
+  State=[{<0.286.0>,<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>},
+         {<0.294.0>,<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>}]
+
+
+=INFO REPORT==== 12-Aug-2012::20:27:43 ===
+lxw_test_websocket3:handle_incoming Url="/websocket/test"
+ Ws=<0.286.0>
+ Sid=<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>
+ Message=<<"hello websocketsdf">>
+  State=[{<0.286.0>,<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>},
+         {<0.294.0>,<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>}]
+
+
+=INFO REPORT==== 12-Aug-2012::20:27:44 ===
+lxw_test_websocket3:handle_incoming Url="/websocket/test"
+ Ws=<0.286.0>
+ Sid=<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>
+ Message=<<"hello websocketsdfsfd">>
+  State=[{<0.286.0>,<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>},
+         {<0.294.0>,<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>}]
+
+
+=INFO REPORT==== 12-Aug-2012::20:27:46 ===
+lxw_test_websocket3:handle_incoming Url="/websocket/test"
+ Ws=<0.286.0>
+ Sid=<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>
+ Message=<<"hello websocketsdfsfdsdfsdf">>
+  State=[{<0.286.0>,<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>},
+         {<0.294.0>,<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>}]
+
+
+=INFO REPORT==== 12-Aug-2012::20:27:54 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::20:27:54 ===
+GET /my/home [lxw] 302 1ms
+
+=INFO REPORT==== 12-Aug-2012::20:27:54 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::20:27:54 ===
+lxw_my_controller3:index Session="127fe4ac92933fa4d33ce88d4e9636fbfa875a75"
+
+
+=INFO REPORT==== 12-Aug-2012::20:27:54 ===
+GET /my/index [lxw] 200 6ms
+
+=INFO REPORT==== 12-Aug-2012::20:27:54 ===
+lxw_test_websocket3:handle_close Url="/websocket/test"
+ Ws=<0.286.0>
+ Sid=<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>
+  State=[{<0.286.0>,<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>},
+         {<0.294.0>,<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>}]
+
+
+=INFO REPORT==== 12-Aug-2012::20:27:55 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::20:27:55 ===
+lxw_my_controller3:login Session="127fe4ac92933fa4d33ce88d4e9636fbfa875a75"
+
+
+=INFO REPORT==== 12-Aug-2012::20:27:55 ===
+GET /my/login [lxw] 302 2ms
+
+=INFO REPORT==== 12-Aug-2012::20:27:55 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::20:27:55 ===
+lxw_my_controller3:home Session="127fe4ac92933fa4d33ce88d4e9636fbfa875a75"
+
+
+=INFO REPORT==== 12-Aug-2012::20:27:55 ===
+GET /my/home [lxw] 200 6ms
+
+=INFO REPORT==== 12-Aug-2012::20:27:56 ===
+lxw_test_websocket3:handle_join Url="/websocket/test"
+ Ws=<0.304.0>
+ Sid=<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>
+  State=[{<0.294.0>,<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>}]
+
+
+=INFO REPORT==== 12-Aug-2012::20:27:58 ===
+lxw_test_websocket3:handle_incoming Url="/websocket/test"
+ Ws=<0.304.0>
+ Sid=<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>
+ Message=<<"hello websocketsdfsdf">>
+  State=[{<0.304.0>,<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>},
+         {<0.294.0>,<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>}]
+
+
+=INFO REPORT==== 12-Aug-2012::20:28:03 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::20:28:03 ===
+lxw_my_controller3:hello Session="49a5ee29c3e2aea5e1b0d5507612ee279885f87b"
+
+
+=INFO REPORT==== 12-Aug-2012::20:28:03 ===
+GET /my/hello [lxw] 200 1ms
+
+=INFO REPORT==== 12-Aug-2012::20:28:05 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::20:28:05 ===
+GET /my/home [lxw] 302 2ms
+
+=INFO REPORT==== 12-Aug-2012::20:28:05 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::20:28:05 ===
+lxw_my_controller3:index Session="49a5ee29c3e2aea5e1b0d5507612ee279885f87b"
+
+
+=INFO REPORT==== 12-Aug-2012::20:28:05 ===
+GET /my/index [lxw] 200 5ms
+
+=INFO REPORT==== 12-Aug-2012::20:28:06 ===
+lxw_test_websocket3:handle_close Url="/websocket/test"
+ Ws=<0.294.0>
+ Sid=<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>
+  State=[{<0.304.0>,<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>},
+         {<0.294.0>,<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>}]
+
+
+=INFO REPORT==== 12-Aug-2012::20:28:07 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::20:28:07 ===
+lxw_my_controller3:login Session="49a5ee29c3e2aea5e1b0d5507612ee279885f87b"
+
+
+=INFO REPORT==== 12-Aug-2012::20:28:07 ===
+GET /my/login [lxw] 302 2ms
+
+=INFO REPORT==== 12-Aug-2012::20:28:07 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::20:28:07 ===
+lxw_my_controller3:home Session="49a5ee29c3e2aea5e1b0d5507612ee279885f87b"
+
+
+=INFO REPORT==== 12-Aug-2012::20:28:07 ===
+GET /my/home [lxw] 200 7ms
+
+=INFO REPORT==== 12-Aug-2012::20:28:08 ===
+lxw_test_websocket3:handle_join Url="/websocket/test"
+ Ws=<0.315.0>
+ Sid=<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>
+  State=[{<0.304.0>,<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>}]
+
+
+=INFO REPORT==== 12-Aug-2012::20:28:09 ===
+lxw_test_websocket3:handle_incoming Url="/websocket/test"
+ Ws=<0.315.0>
+ Sid=<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>
+ Message=<<"hello websocket">>
+  State=[{<0.315.0>,<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>},
+         {<0.304.0>,<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>}]
+
+
+=INFO REPORT==== 12-Aug-2012::20:28:10 ===
+lxw_test_websocket3:handle_incoming Url="/websocket/test"
+ Ws=<0.315.0>
+ Sid=<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>
+ Message=<<"hello websocket">>
+  State=[{<0.315.0>,<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>},
+         {<0.304.0>,<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>}]
+
+
+=INFO REPORT==== 12-Aug-2012::20:28:11 ===
+lxw_test_websocket3:handle_incoming Url="/websocket/test"
+ Ws=<0.315.0>
+ Sid=<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>
+ Message=<<"hello websocket">>
+  State=[{<0.315.0>,<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>},
+         {<0.304.0>,<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>}]
+
+
+=INFO REPORT==== 12-Aug-2012::20:28:11 ===
+lxw_test_websocket3:handle_incoming Url="/websocket/test"
+ Ws=<0.315.0>
+ Sid=<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>
+ Message=<<"hello websocket">>
+  State=[{<0.315.0>,<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>},
+         {<0.304.0>,<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>}]
+
+
+=INFO REPORT==== 12-Aug-2012::20:28:11 ===
+lxw_test_websocket3:handle_incoming Url="/websocket/test"
+ Ws=<0.315.0>
+ Sid=<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>
+ Message=<<"hello websocket">>
+  State=[{<0.315.0>,<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>},
+         {<0.304.0>,<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>}]
+
+
+=INFO REPORT==== 12-Aug-2012::20:28:11 ===
+lxw_test_websocket3:handle_incoming Url="/websocket/test"
+ Ws=<0.315.0>
+ Sid=<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>
+ Message=<<"hello websocket">>
+  State=[{<0.315.0>,<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>},
+         {<0.304.0>,<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>}]
+
+
+=INFO REPORT==== 12-Aug-2012::20:28:12 ===
+lxw_test_websocket3:handle_incoming Url="/websocket/test"
+ Ws=<0.315.0>
+ Sid=<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>
+ Message=<<"hello websocket">>
+  State=[{<0.315.0>,<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>},
+         {<0.304.0>,<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>}]
+
+
+=INFO REPORT==== 12-Aug-2012::20:28:12 ===
+lxw_test_websocket3:handle_incoming Url="/websocket/test"
+ Ws=<0.315.0>
+ Sid=<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>
+ Message=<<"hello websocket">>
+  State=[{<0.315.0>,<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>},
+         {<0.304.0>,<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>}]
+
+
+=INFO REPORT==== 12-Aug-2012::20:28:12 ===
+lxw_test_websocket3:handle_incoming Url="/websocket/test"
+ Ws=<0.315.0>
+ Sid=<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>
+ Message=<<"hello websocket">>
+  State=[{<0.315.0>,<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>},
+         {<0.304.0>,<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>}]
+
+
+=INFO REPORT==== 12-Aug-2012::20:28:22 ===
+lxw_test_websocket3:handle_incoming Url="/websocket/test"
+ Ws=<0.315.0>
+ Sid=<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>
+ Message=<<"hello websocketsdfsdf">>
+  State=[{<0.315.0>,<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>},
+         {<0.304.0>,<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>}]
+
+
+=INFO REPORT==== 12-Aug-2012::20:28:26 ===
+lxw_test_websocket3:handle_incoming Url="/websocket/test"
+ Ws=<0.315.0>
+ Sid=<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>
+ Message=<<"hello websocketsdfsdfsdfsd">>
+  State=[{<0.315.0>,<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>},
+         {<0.304.0>,<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>}]
+
+
+=INFO REPORT==== 12-Aug-2012::20:29:21 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::20:29:21 ===
+lxw_my_controller3:home Session="49a5ee29c3e2aea5e1b0d5507612ee279885f87b"
+
+
+=INFO REPORT==== 12-Aug-2012::20:29:21 ===
+GET /my/home [lxw] 200 24ms
+
+=INFO REPORT==== 12-Aug-2012::20:29:22 ===
+lxw_test_websocket3:handle_close Url="/websocket/test"
+ Ws=<0.315.0>
+ Sid=<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>
+  State=[{<0.315.0>,<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>},
+         {<0.304.0>,<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>}]
+
+
+=INFO REPORT==== 12-Aug-2012::20:29:22 ===
+lxw_test_websocket3:handle_join Url="/websocket/test"
+ Ws=<0.321.0>
+ Sid=<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>
+  State=[{<0.304.0>,<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>}]
+
+
+=INFO REPORT==== 12-Aug-2012::20:29:23 ===
+lxw_test_websocket3:handle_incoming Url="/websocket/test"
+ Ws=<0.321.0>
+ Sid=<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>
+ Message=<<"hello websocket">>
+  State=[{<0.304.0>,<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>},
+         {<0.321.0>,<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>}]
+
+
+=INFO REPORT==== 12-Aug-2012::20:29:27 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::20:29:27 ===
+GET /my/home [lxw] 302 1ms
+
+=INFO REPORT==== 12-Aug-2012::20:29:27 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::20:29:27 ===
+lxw_my_controller3:index Session="127fe4ac92933fa4d33ce88d4e9636fbfa875a75"
+
+
+=INFO REPORT==== 12-Aug-2012::20:29:27 ===
+GET /my/index [lxw] 200 6ms
+
+=INFO REPORT==== 12-Aug-2012::20:29:27 ===
+lxw_test_websocket3:handle_close Url="/websocket/test"
+ Ws=<0.304.0>
+ Sid=<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>
+  State=[{<0.304.0>,<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>},
+         {<0.321.0>,<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>}]
+
+
+=INFO REPORT==== 12-Aug-2012::20:29:28 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::20:29:28 ===
+lxw_my_controller3:login Session="127fe4ac92933fa4d33ce88d4e9636fbfa875a75"
+
+
+=INFO REPORT==== 12-Aug-2012::20:29:28 ===
+GET /my/login [lxw] 302 6ms
+
+=INFO REPORT==== 12-Aug-2012::20:29:28 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::20:29:28 ===
+lxw_my_controller3:home Session="127fe4ac92933fa4d33ce88d4e9636fbfa875a75"
+
+
+=INFO REPORT==== 12-Aug-2012::20:29:28 ===
+GET /my/home [lxw] 200 9ms
+
+=INFO REPORT==== 12-Aug-2012::20:29:28 ===
+lxw_test_websocket3:handle_join Url="/websocket/test"
+ Ws=<0.330.0>
+ Sid=<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>
+  State=[{<0.321.0>,<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>}]
+
+
+=INFO REPORT==== 12-Aug-2012::20:29:29 ===
+lxw_test_websocket3:handle_incoming Url="/websocket/test"
+ Ws=<0.330.0>
+ Sid=<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>
+ Message=<<"hello websocket">>
+  State=[{<0.330.0>,<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>},
+         {<0.321.0>,<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>}]
+
+
+=INFO REPORT==== 12-Aug-2012::20:29:30 ===
+lxw_test_websocket3:handle_incoming Url="/websocket/test"
+ Ws=<0.330.0>
+ Sid=<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>
+ Message=<<"hello websocket">>
+  State=[{<0.330.0>,<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>},
+         {<0.321.0>,<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>}]
+
+
+=INFO REPORT==== 12-Aug-2012::20:29:31 ===
+lxw_test_websocket3:handle_incoming Url="/websocket/test"
+ Ws=<0.330.0>
+ Sid=<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>
+ Message=<<"hello websocket">>
+  State=[{<0.330.0>,<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>},
+         {<0.321.0>,<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>}]
+
+
+=INFO REPORT==== 12-Aug-2012::20:29:32 ===
+lxw_test_websocket3:handle_incoming Url="/websocket/test"
+ Ws=<0.330.0>
+ Sid=<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>
+ Message=<<"hello websocketsdf">>
+  State=[{<0.330.0>,<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>},
+         {<0.321.0>,<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>}]
+
+
+=INFO REPORT==== 12-Aug-2012::20:29:37 ===
+lxw_test_websocket3:handle_incoming Url="/websocket/test"
+ Ws=<0.330.0>
+ Sid=<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>
+ Message=<<"lhoe">>
+  State=[{<0.330.0>,<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>},
+         {<0.321.0>,<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>}]
+
+
+=INFO REPORT==== 12-Aug-2012::20:29:51 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::20:29:51 ===
+lxw_my_controller3:login Session="49a5ee29c3e2aea5e1b0d5507612ee279885f87b"
+
+
+=INFO REPORT==== 12-Aug-2012::20:29:51 ===
+GET /my/login [lxw] 302 1ms
+
+=INFO REPORT==== 12-Aug-2012::20:29:51 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::20:29:51 ===
+lxw_my_controller3:index Session="49a5ee29c3e2aea5e1b0d5507612ee279885f87b"
+
+
+=INFO REPORT==== 12-Aug-2012::20:29:51 ===
+GET /my/index [lxw] 200 6ms
+
+=INFO REPORT==== 12-Aug-2012::20:29:51 ===
+lxw_test_websocket3:handle_close Url="/websocket/test"
+ Ws=<0.321.0>
+ Sid=<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>
+  State=[{<0.330.0>,<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>},
+         {<0.321.0>,<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>}]
+
+
+=INFO REPORT==== 12-Aug-2012::20:29:55 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::20:29:55 ===
+lxw_my_controller3:login Session="49a5ee29c3e2aea5e1b0d5507612ee279885f87b"
+
+
+=INFO REPORT==== 12-Aug-2012::20:29:55 ===
+GET /my/login [lxw] 302 1ms
+
+=INFO REPORT==== 12-Aug-2012::20:29:55 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::20:29:55 ===
+lxw_my_controller3:home Session="49a5ee29c3e2aea5e1b0d5507612ee279885f87b"
+
+
+=INFO REPORT==== 12-Aug-2012::20:29:55 ===
+GET /my/home [lxw] 200 5ms
+
+=INFO REPORT==== 12-Aug-2012::20:29:56 ===
+lxw_test_websocket3:handle_join Url="/websocket/test"
+ Ws=<0.338.0>
+ Sid=<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>
+  State=[{<0.330.0>,<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>}]
+
+
+=INFO REPORT==== 12-Aug-2012::20:29:59 ===
+lxw_test_websocket3:handle_incoming Url="/websocket/test"
+ Ws=<0.338.0>
+ Sid=<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>
+ Message=<<"hello websocks">>
+  State=[{<0.330.0>,<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>},
+         {<0.338.0>,<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>}]
+
+
+=INFO REPORT==== 12-Aug-2012::20:30:01 ===
+lxw_test_websocket3:handle_incoming Url="/websocket/test"
+ Ws=<0.338.0>
+ Sid=<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>
+ Message=<<"sdf">>
+  State=[{<0.330.0>,<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>},
+         {<0.338.0>,<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>}]
+
+
+=INFO REPORT==== 12-Aug-2012::20:30:08 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::20:30:08 ===
+lxw_my_controller3:login Session="127fe4ac92933fa4d33ce88d4e9636fbfa875a75"
+
+
+=INFO REPORT==== 12-Aug-2012::20:30:08 ===
+GET /my/login [lxw] 302 5ms
+
+=INFO REPORT==== 12-Aug-2012::20:30:08 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::20:30:08 ===
+lxw_my_controller3:index Session="127fe4ac92933fa4d33ce88d4e9636fbfa875a75"
+
+
+=INFO REPORT==== 12-Aug-2012::20:30:08 ===
+GET /my/index [lxw] 200 7ms
+
+=INFO REPORT==== 12-Aug-2012::20:30:08 ===
+lxw_test_websocket3:handle_close Url="/websocket/test"
+ Ws=<0.330.0>
+ Sid=<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>
+  State=[{<0.330.0>,<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>},
+         {<0.338.0>,<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>}]
+
+
+=INFO REPORT==== 12-Aug-2012::20:30:12 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::20:30:12 ===
+lxw_my_controller3:login Session="127fe4ac92933fa4d33ce88d4e9636fbfa875a75"
+
+
+=INFO REPORT==== 12-Aug-2012::20:30:12 ===
+GET /my/login [lxw] 302 5ms
+
+=INFO REPORT==== 12-Aug-2012::20:30:12 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::20:30:12 ===
+lxw_my_controller3:home Session="127fe4ac92933fa4d33ce88d4e9636fbfa875a75"
+
+
+=INFO REPORT==== 12-Aug-2012::20:30:12 ===
+GET /my/home [lxw] 200 5ms
+
+=INFO REPORT==== 12-Aug-2012::20:30:12 ===
+lxw_test_websocket3:handle_join Url="/websocket/test"
+ Ws=<0.346.0>
+ Sid=<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>
+  State=[{<0.338.0>,<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>}]
+
+
+=INFO REPORT==== 12-Aug-2012::20:30:16 ===
+lxw_test_websocket3:handle_incoming Url="/websocket/test"
+ Ws=<0.346.0>
+ Sid=<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>
+ Message=<<"hello websocket">>
+  State=[{<0.346.0>,<<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>},
+         {<0.338.0>,<<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>}]
+
+
+=ERROR REPORT==== 12-Aug-2012::20:30:16 ===
+** Boss Service Handler lxw_test_websocket terminating in handle_incoming/4
+   for the reason error:badarg
+ServiceUrl: "/websocket/test"
+WebSocketId: <0.346.0>
+SessionId  : <<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>
+Message    : <<"hello websocket">>
+State    : {state,{dict,2,16,16,8,80,48,
+                        {[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},
+                        {{[],[],[],
+                          [[<0.346.0>|
+                            <<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>]],
+                          [],[],[],[],[],[],[],
+                          [[<0.338.0>|
+                            <<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>]],
+                          [],[],[],[]}}}}
+** Stacktrace: [{lxw_test_websocket,'-handle_incoming/5-lc$^0/1-0-',2},
+                {lxw_test_websocket,handle_incoming,5},
+                {boss_service_worker,handle_cast,2},
+                {gen_server,handle_msg,5},
+                {proc_lib,init_p_do_apply,3}]
+
+
+=INFO REPORT==== 12-Aug-2012::20:30:16 ===
+lxw_test_websocket3:terminate Reason={bad_return_value,ok}, State=[{<0.346.0>,
+                                                                    <<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>},
+                                                                   {<0.338.0>,
+                                                                    <<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>}]
+
+
+=ERROR REPORT==== 12-Aug-2012::20:30:16 ===
+** Generic server lxw_test_websocket terminating 
+** Last message in was {'$gen_cast',
+                           {incoming_msg,"/websocket/test",<0.346.0>,
+                               <<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>,
+                               <<"hello websocket">>}}
+** When Server state == {state,lxw_test_websocket,
+                            {state,
+                                {dict,2,16,16,8,80,48,
+                                    {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                     [],[],[]},
+                                    {{[],[],[],
+                                      [[<0.346.0>|
+                                        <<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>]],
+                                      [],[],[],[],[],[],[],
+                                      [[<0.338.0>|
+                                        <<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>]],
+                                      [],[],[],[]}}}}}
+** Reason for termination == 
+** {bad_return_value,ok}
+
+=ERROR REPORT==== 12-Aug-2012::20:30:21 ===
+** Generic server boss_websocket_router terminating 
+** Last message in was {'$gen_cast',
+                           {incoming_msg,<<"/websocket/test">>,<0.346.0>,
+                               <<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>,
+                               <<"hello webssdf">>}}
+** When Server state == {state,{dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               {dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               0}
+** Reason for termination == 
+** {badarg,[{dict,fetch,
+                  [<<"/websocket/test">>,
+                   {dict,0,16,16,8,80,48,
+                         {[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},
+                         {{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],
+                           []}}}]},
+            {boss_websocket_router,handle_cast,2},
+            {gen_server,handle_msg,5},
+            {proc_lib,init_p_do_apply,3}]}
+
+=ERROR REPORT==== 12-Aug-2012::20:30:22 ===
+** Generic server boss_websocket_router terminating 
+** Last message in was {'$gen_cast',
+                           {incoming_msg,<<"/websocket/test">>,<0.346.0>,
+                               <<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>,
+                               <<"hello webssdf">>}}
+** When Server state == {state,{dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               {dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               0}
+** Reason for termination == 
+** {badarg,[{dict,fetch,
+                  [<<"/websocket/test">>,
+                   {dict,0,16,16,8,80,48,
+                         {[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},
+                         {{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],
+                           []}}}]},
+            {boss_websocket_router,handle_cast,2},
+            {gen_server,handle_msg,5},
+            {proc_lib,init_p_do_apply,3}]}
+
+=ERROR REPORT==== 12-Aug-2012::20:30:25 ===
+** Generic server boss_websocket_router terminating 
+** Last message in was {'$gen_cast',
+                           {incoming_msg,<<"/websocket/test">>,<0.338.0>,
+                               <<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>,
+                               <<"sdf">>}}
+** When Server state == {state,{dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               {dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               0}
+** Reason for termination == 
+** {badarg,[{dict,fetch,
+                  [<<"/websocket/test">>,
+                   {dict,0,16,16,8,80,48,
+                         {[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},
+                         {{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],
+                           []}}}]},
+            {boss_websocket_router,handle_cast,2},
+            {gen_server,handle_msg,5},
+            {proc_lib,init_p_do_apply,3}]}
+
+=ERROR REPORT==== 12-Aug-2012::20:30:27 ===
+** Generic server boss_websocket_router terminating 
+** Last message in was {'$gen_cast',
+                           {incoming_msg,<<"/websocket/test">>,<0.338.0>,
+                               <<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>,
+                               <<"sdfsfd">>}}
+** When Server state == {state,{dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               {dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               0}
+** Reason for termination == 
+** {badarg,[{dict,fetch,
+                  [<<"/websocket/test">>,
+                   {dict,0,16,16,8,80,48,
+                         {[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},
+                         {{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],
+                           []}}}]},
+            {boss_websocket_router,handle_cast,2},
+            {gen_server,handle_msg,5},
+            {proc_lib,init_p_do_apply,3}]}
+
+=ERROR REPORT==== 12-Aug-2012::20:30:27 ===
+** Generic server boss_websocket_router terminating 
+** Last message in was {'$gen_cast',
+                           {incoming_msg,<<"/websocket/test">>,<0.338.0>,
+                               <<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>,
+                               <<"sdfsfd">>}}
+** When Server state == {state,{dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               {dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               0}
+** Reason for termination == 
+** {badarg,[{dict,fetch,
+                  [<<"/websocket/test">>,
+                   {dict,0,16,16,8,80,48,
+                         {[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},
+                         {{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],
+                           []}}}]},
+            {boss_websocket_router,handle_cast,2},
+            {gen_server,handle_msg,5},
+            {proc_lib,init_p_do_apply,3}]}
+
+=ERROR REPORT==== 12-Aug-2012::20:30:27 ===
+** Generic server boss_websocket_router terminating 
+** Last message in was {'$gen_cast',
+                           {incoming_msg,<<"/websocket/test">>,<0.338.0>,
+                               <<"49a5ee29c3e2aea5e1b0d5507612ee279885f87b">>,
+                               <<"sdfsfd">>}}
+** When Server state == {state,{dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               {dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               0}
+** Reason for termination == 
+** {badarg,[{dict,fetch,
+                  [<<"/websocket/test">>,
+                   {dict,0,16,16,8,80,48,
+                         {[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},
+                         {{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],
+                           []}}}]},
+            {boss_websocket_router,handle_cast,2},
+            {gen_server,handle_msg,5},
+            {proc_lib,init_p_do_apply,3}]}
+
+=INFO REPORT==== 12-Aug-2012::20:30:53 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::20:30:53 ===
+lxw_my_controller3:home Session="127fe4ac92933fa4d33ce88d4e9636fbfa875a75"
+
+
+=INFO REPORT==== 12-Aug-2012::20:30:53 ===
+GET /my/home [lxw] 200 8ms
+
+=ERROR REPORT==== 12-Aug-2012::20:30:53 ===
+** Generic server boss_websocket_router terminating 
+** Last message in was {'$gen_cast',
+                           {terminate_service,<<"/websocket/test">>,
+                               <0.346.0>,
+                               <<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>}}
+** When Server state == {state,{dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               {dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               0}
+** Reason for termination == 
+** {badarg,[{dict,fetch,
+                  [<<"/websocket/test">>,
+                   {dict,0,16,16,8,80,48,
+                         {[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},
+                         {{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],
+                           []}}}]},
+            {boss_websocket_router,handle_cast,2},
+            {gen_server,handle_msg,5},
+            {proc_lib,init_p_do_apply,3}]}
+
+=ERROR REPORT==== 12-Aug-2012::20:30:53 ===
+** Generic server boss_websocket_router terminating 
+** Last message in was {'$gen_cast',
+                           {join_service,<<"/websocket/test">>,<0.372.0>,
+                               <<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>}}
+** When Server state == {state,{dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               {dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               0}
+** Reason for termination == 
+** {badarg,[{dict,fetch,
+                  [<<"/websocket/test">>,
+                   {dict,0,16,16,8,80,48,
+                         {[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},
+                         {{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],
+                           []}}}]},
+            {boss_websocket_router,handle_cast,2},
+            {gen_server,handle_msg,5},
+            {proc_lib,init_p_do_apply,3}]}
+
+=INFO REPORT==== 12-Aug-2012::20:30:54 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::20:30:54 ===
+lxw_my_controller3:home Session="127fe4ac92933fa4d33ce88d4e9636fbfa875a75"
+
+
+=INFO REPORT==== 12-Aug-2012::20:30:54 ===
+GET /my/home [lxw] 200 11ms
+
+=ERROR REPORT==== 12-Aug-2012::20:30:54 ===
+** Generic server boss_websocket_router terminating 
+** Last message in was {'$gen_cast',
+                           {terminate_service,<<"/websocket/test">>,
+                               <0.372.0>,
+                               <<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>}}
+** When Server state == {state,{dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               {dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               0}
+** Reason for termination == 
+** {badarg,[{dict,fetch,
+                  [<<"/websocket/test">>,
+                   {dict,0,16,16,8,80,48,
+                         {[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},
+                         {{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],
+                           []}}}]},
+            {boss_websocket_router,handle_cast,2},
+            {gen_server,handle_msg,5},
+            {proc_lib,init_p_do_apply,3}]}
+
+=ERROR REPORT==== 12-Aug-2012::20:30:54 ===
+** Generic server boss_websocket_router terminating 
+** Last message in was {'$gen_cast',
+                           {join_service,<<"/websocket/test">>,<0.384.0>,
+                               <<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>}}
+** When Server state == {state,{dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               {dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               0}
+** Reason for termination == 
+** {badarg,[{dict,fetch,
+                  [<<"/websocket/test">>,
+                   {dict,0,16,16,8,80,48,
+                         {[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},
+                         {{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],
+                           []}}}]},
+            {boss_websocket_router,handle_cast,2},
+            {gen_server,handle_msg,5},
+            {proc_lib,init_p_do_apply,3}]}
+
+=INFO REPORT==== 12-Aug-2012::20:30:54 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::20:30:54 ===
+lxw_my_controller3:home Session="127fe4ac92933fa4d33ce88d4e9636fbfa875a75"
+
+
+=INFO REPORT==== 12-Aug-2012::20:30:54 ===
+GET /my/home [lxw] 200 10ms
+
+=ERROR REPORT==== 12-Aug-2012::20:30:54 ===
+** Generic server boss_websocket_router terminating 
+** Last message in was {'$gen_cast',
+                           {terminate_service,<<"/websocket/test">>,
+                               <0.384.0>,
+                               <<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>}}
+** When Server state == {state,{dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               {dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               0}
+** Reason for termination == 
+** {badarg,[{dict,fetch,
+                  [<<"/websocket/test">>,
+                   {dict,0,16,16,8,80,48,
+                         {[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},
+                         {{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],
+                           []}}}]},
+            {boss_websocket_router,handle_cast,2},
+            {gen_server,handle_msg,5},
+            {proc_lib,init_p_do_apply,3}]}
+
+=ERROR REPORT==== 12-Aug-2012::20:30:54 ===
+** Generic server boss_websocket_router terminating 
+** Last message in was {'$gen_cast',
+                           {join_service,<<"/websocket/test">>,<0.393.0>,
+                               <<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>}}
+** When Server state == {state,{dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               {dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               0}
+** Reason for termination == 
+** {badarg,[{dict,fetch,
+                  [<<"/websocket/test">>,
+                   {dict,0,16,16,8,80,48,
+                         {[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},
+                         {{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],
+                           []}}}]},
+            {boss_websocket_router,handle_cast,2},
+            {gen_server,handle_msg,5},
+            {proc_lib,init_p_do_apply,3}]}
+
+=INFO REPORT==== 12-Aug-2012::20:30:54 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::20:30:54 ===
+lxw_my_controller3:home Session="127fe4ac92933fa4d33ce88d4e9636fbfa875a75"
+
+
+=INFO REPORT==== 12-Aug-2012::20:30:54 ===
+GET /my/home [lxw] 200 7ms
+
+=ERROR REPORT==== 12-Aug-2012::20:30:54 ===
+** Generic server boss_websocket_router terminating 
+** Last message in was {'$gen_cast',
+                           {terminate_service,<<"/websocket/test">>,
+                               <0.393.0>,
+                               <<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>}}
+** When Server state == {state,{dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               {dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               0}
+** Reason for termination == 
+** {badarg,[{dict,fetch,
+                  [<<"/websocket/test">>,
+                   {dict,0,16,16,8,80,48,
+                         {[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},
+                         {{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],
+                           []}}}]},
+            {boss_websocket_router,handle_cast,2},
+            {gen_server,handle_msg,5},
+            {proc_lib,init_p_do_apply,3}]}
+
+=ERROR REPORT==== 12-Aug-2012::20:30:54 ===
+** Generic server boss_websocket_router terminating 
+** Last message in was {'$gen_cast',
+                           {join_service,<<"/websocket/test">>,<0.402.0>,
+                               <<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>}}
+** When Server state == {state,{dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               {dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               0}
+** Reason for termination == 
+** {badarg,[{dict,fetch,
+                  [<<"/websocket/test">>,
+                   {dict,0,16,16,8,80,48,
+                         {[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},
+                         {{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],
+                           []}}}]},
+            {boss_websocket_router,handle_cast,2},
+            {gen_server,handle_msg,5},
+            {proc_lib,init_p_do_apply,3}]}
+
+=INFO REPORT==== 12-Aug-2012::20:30:59 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::20:30:59 ===
+lxw_my_controller3:index Session="127fe4ac92933fa4d33ce88d4e9636fbfa875a75"
+
+
+=INFO REPORT==== 12-Aug-2012::20:30:59 ===
+GET /my/index [lxw] 200 5ms
+
+=INFO REPORT==== 12-Aug-2012::20:31:00 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::20:31:00 ===
+lxw_my_controller3:index Session="127fe4ac92933fa4d33ce88d4e9636fbfa875a75"
+
+
+=INFO REPORT==== 12-Aug-2012::20:31:00 ===
+GET /my/index [lxw] 200 7ms
+
+=ERROR REPORT==== 12-Aug-2012::20:31:00 ===
+** Generic server boss_websocket_router terminating 
+** Last message in was {'$gen_cast',
+                           {terminate_service,<<"/websocket/test">>,
+                               <0.402.0>,
+                               <<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>}}
+** When Server state == {state,{dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               {dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               0}
+** Reason for termination == 
+** {badarg,[{dict,fetch,
+                  [<<"/websocket/test">>,
+                   {dict,0,16,16,8,80,48,
+                         {[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},
+                         {{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],
+                           []}}}]},
+            {boss_websocket_router,handle_cast,2},
+            {gen_server,handle_msg,5},
+            {proc_lib,init_p_do_apply,3}]}
+
+=INFO REPORT==== 12-Aug-2012::20:31:14 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::20:31:14 ===
+lxw_my_controller3:login Session="127fe4ac92933fa4d33ce88d4e9636fbfa875a75"
+
+
+=INFO REPORT==== 12-Aug-2012::20:31:14 ===
+GET /my/login [lxw] 302 5ms
+
+=INFO REPORT==== 12-Aug-2012::20:31:14 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::20:31:14 ===
+lxw_my_controller3:home Session="127fe4ac92933fa4d33ce88d4e9636fbfa875a75"
+
+
+=INFO REPORT==== 12-Aug-2012::20:31:14 ===
+GET /my/home [lxw] 200 8ms
+
+=ERROR REPORT==== 12-Aug-2012::20:31:14 ===
+** Generic server boss_websocket_router terminating 
+** Last message in was {'$gen_cast',
+                           {join_service,<<"/websocket/test">>,<0.419.0>,
+                               <<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>}}
+** When Server state == {state,{dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               {dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               0}
+** Reason for termination == 
+** {badarg,[{dict,fetch,
+                  [<<"/websocket/test">>,
+                   {dict,0,16,16,8,80,48,
+                         {[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},
+                         {{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],
+                           []}}}]},
+            {boss_websocket_router,handle_cast,2},
+            {gen_server,handle_msg,5},
+            {proc_lib,init_p_do_apply,3}]}
+
+=ERROR REPORT==== 12-Aug-2012::20:31:28 ===
+** Generic server boss_websocket_router terminating 
+** Last message in was {'$gen_cast',
+                           {incoming_msg,<<"/websocket/test">>,<0.419.0>,
+                               <<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>,
+                               <<"hello">>}}
+** When Server state == {state,{dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               {dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               0}
+** Reason for termination == 
+** {badarg,[{dict,fetch,
+                  [<<"/websocket/test">>,
+                   {dict,0,16,16,8,80,48,
+                         {[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},
+                         {{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],
+                           []}}}]},
+            {boss_websocket_router,handle_cast,2},
+            {gen_server,handle_msg,5},
+            {proc_lib,init_p_do_apply,3}]}
+
+=ERROR REPORT==== 12-Aug-2012::20:31:30 ===
+** Generic server boss_websocket_router terminating 
+** Last message in was {'$gen_cast',
+                           {incoming_msg,<<"/websocket/test">>,<0.419.0>,
+                               <<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>,
+                               <<"hello">>}}
+** When Server state == {state,{dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               {dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               0}
+** Reason for termination == 
+** {badarg,[{dict,fetch,
+                  [<<"/websocket/test">>,
+                   {dict,0,16,16,8,80,48,
+                         {[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},
+                         {{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],
+                           []}}}]},
+            {boss_websocket_router,handle_cast,2},
+            {gen_server,handle_msg,5},
+            {proc_lib,init_p_do_apply,3}]}
+
+=ERROR REPORT==== 12-Aug-2012::20:31:38 ===
+** Generic server boss_websocket_router terminating 
+** Last message in was {'$gen_cast',
+                           {incoming_msg,<<"/websocket/test">>,<0.419.0>,
+                               <<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>,
+                               <<"hello">>}}
+** When Server state == {state,{dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               {dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               0}
+** Reason for termination == 
+** {badarg,[{dict,fetch,
+                  [<<"/websocket/test">>,
+                   {dict,0,16,16,8,80,48,
+                         {[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},
+                         {{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],
+                           []}}}]},
+            {boss_websocket_router,handle_cast,2},
+            {gen_server,handle_msg,5},
+            {proc_lib,init_p_do_apply,3}]}
+
+=ERROR REPORT==== 12-Aug-2012::20:31:39 ===
+** Generic server boss_websocket_router terminating 
+** Last message in was {'$gen_cast',
+                           {incoming_msg,<<"/websocket/test">>,<0.419.0>,
+                               <<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>,
+                               <<"hello">>}}
+** When Server state == {state,{dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               {dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               0}
+** Reason for termination == 
+** {badarg,[{dict,fetch,
+                  [<<"/websocket/test">>,
+                   {dict,0,16,16,8,80,48,
+                         {[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},
+                         {{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],
+                           []}}}]},
+            {boss_websocket_router,handle_cast,2},
+            {gen_server,handle_msg,5},
+            {proc_lib,init_p_do_apply,3}]}
+
+=ERROR REPORT==== 12-Aug-2012::20:31:40 ===
+** Generic server boss_websocket_router terminating 
+** Last message in was {'$gen_cast',
+                           {incoming_msg,<<"/websocket/test">>,<0.419.0>,
+                               <<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>,
+                               <<"hellosfsdf">>}}
+** When Server state == {state,{dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               {dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               0}
+** Reason for termination == 
+** {badarg,[{dict,fetch,
+                  [<<"/websocket/test">>,
+                   {dict,0,16,16,8,80,48,
+                         {[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},
+                         {{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],
+                           []}}}]},
+            {boss_websocket_router,handle_cast,2},
+            {gen_server,handle_msg,5},
+            {proc_lib,init_p_do_apply,3}]}
+
+=ERROR REPORT==== 12-Aug-2012::20:31:41 ===
+** Generic server boss_websocket_router terminating 
+** Last message in was {'$gen_cast',
+                           {incoming_msg,<<"/websocket/test">>,<0.419.0>,
+                               <<"127fe4ac92933fa4d33ce88d4e9636fbfa875a75">>,
+                               <<"hellosfsdf">>}}
+** When Server state == {state,{dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               {dict,0,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                       [],[],[]}}},
+                               0}
+** Reason for termination == 
+** {badarg,[{dict,fetch,
+                  [<<"/websocket/test">>,
+                   {dict,0,16,16,8,80,48,
+                         {[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]},
+                         {{[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],
+                           []}}}]},
+            {boss_websocket_router,handle_cast,2},
+            {gen_server,handle_msg,5},
+            {proc_lib,init_p_do_apply,3}]}

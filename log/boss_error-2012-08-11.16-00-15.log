@@ -1,0 +1,49 @@
+
+=INFO REPORT==== 11-Aug-2012::16:00:15 ===
+Starting Boss in development mode....
+
+=INFO REPORT==== 11-Aug-2012::16:00:15 ===
+Starting master services on 'lxw@jason-lxw'
+
+=INFO REPORT==== 11-Aug-2012::16:00:16 ===
+SSL:[]
+
+=INFO REPORT==== 11-Aug-2012::16:00:16 ===
+Starting cowboy... on 'lxw@jason-lxw'
+
+=INFO REPORT==== 11-Aug-2012::16:00:16 ===
+Starting http listener... on 8001 
+
+=INFO REPORT==== 11-Aug-2012::16:00:16 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=ERROR REPORT==== 11-Aug-2012::16:00:33 ===
+** Generic server boss_websocket_router terminating 
+** Last message in was {'$gen_cast',
+                           {terminate_service,<<"/websocket/test">>,
+                               <0.232.0>,
+                               <<"e22a1fc7e0aff384815cd2ed05c2eec877ee3d18">>}}
+** When Server state == {state,{dict,1,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],[],[],[],[],
+                                       [[<0.232.0>,lxw_test_websocket,
+                                         <<"e22a1fc7e0aff384815cd2ed05c2eec877ee3d18">>]],
+                                       [],[],[],[],[],[],[]}}},
+                               {dict,2,16,16,8,80,48,
+                                     {[],[],[],[],[],[],[],[],[],[],[],[],[],
+                                      [],[],[]},
+                                     {{[],[],[],[],
+                                       [[<<"/websocket/test">>|
+                                         lxw_test_websocket]],
+                                       [],[],[],[],
+                                       [[<<"/websocket/foobar">>|
+                                         lxw_foobar_websocket]],
+                                       [],[],[],[],[],[]}}},
+                               1}
+** Reason for termination == 
+** {timeout,
+       {gen_server,call,
+           [{global,lxw_test_websocket},
+            {terminate_service,"/websocket/test",<0.232.0>,
+                <<"e22a1fc7e0aff384815cd2ed05c2eec877ee3d18">>}]}}

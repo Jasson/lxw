@@ -1,0 +1,108 @@
+
+=INFO REPORT==== 11-Aug-2012::23:03:19 ===
+Starting Boss in development mode....
+
+=INFO REPORT==== 11-Aug-2012::23:03:19 ===
+Starting master services on 'lxw@jason-lxw'
+
+=INFO REPORT==== 11-Aug-2012::23:03:19 ===
+SSL:[]
+
+=INFO REPORT==== 11-Aug-2012::23:03:19 ===
+Starting cowboy... on 'lxw@jason-lxw'
+
+=INFO REPORT==== 11-Aug-2012::23:03:19 ===
+Starting http listener... on 8001 
+
+=INFO REPORT==== 11-Aug-2012::23:03:19 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 11-Aug-2012::23:03:24 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 11-Aug-2012::23:03:24 ===
+GET /my/test [lxw] 200 6ms
+
+=INFO REPORT==== 11-Aug-2012::23:03:35 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 11-Aug-2012::23:03:35 ===
+GET /my/test [lxw] 200 12ms
+
+=INFO REPORT==== 11-Aug-2012::23:03:36 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 11-Aug-2012::23:03:36 ===
+GET /my/test [lxw] 200 7ms
+
+=INFO REPORT==== 11-Aug-2012::23:03:36 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 11-Aug-2012::23:03:36 ===
+GET /my/test [lxw] 200 9ms
+
+=INFO REPORT==== 11-Aug-2012::23:03:36 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 11-Aug-2012::23:03:36 ===
+GET /my/test [lxw] 200 15ms
+
+=INFO REPORT==== 11-Aug-2012::23:03:37 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 11-Aug-2012::23:03:37 ===
+GET /my/test [lxw] 200 10ms
+
+=INFO REPORT==== 11-Aug-2012::23:03:53 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 11-Aug-2012::23:03:53 ===
+GET /my/test [lxw] 200 7ms
+
+=INFO REPORT==== 11-Aug-2012::23:03:53 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 11-Aug-2012::23:03:53 ===
+GET /my/test [lxw] 200 5ms
+
+=INFO REPORT==== 11-Aug-2012::23:03:53 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 11-Aug-2012::23:03:53 ===
+GET /my/test [lxw] 200 8ms
+
+=INFO REPORT==== 11-Aug-2012::23:03:53 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 11-Aug-2012::23:03:53 ===
+GET /my/test [lxw] 200 6ms
+
+=INFO REPORT==== 11-Aug-2012::23:03:53 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 11-Aug-2012::23:03:53 ===
+GET /my/test [lxw] 200 10ms
+
+=INFO REPORT==== 11-Aug-2012::23:03:54 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 11-Aug-2012::23:03:54 ===
+GET /my/test [lxw] 200 8ms
+
+=INFO REPORT==== 11-Aug-2012::23:03:54 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 11-Aug-2012::23:03:54 ===
+GET /my/test [lxw] 200 6ms
+
+=INFO REPORT==== 11-Aug-2012::23:03:54 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 11-Aug-2012::23:03:54 ===
+GET /my/test [lxw] 200 5ms
+
+=INFO REPORT==== 11-Aug-2012::23:03:54 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 11-Aug-2012::23:03:54 ===
+GET /my/test [lxw] 200 5ms

@@ -1,0 +1,44 @@
+
+=INFO REPORT==== 12-Aug-2012::13:16:04 ===
+Starting Boss in development mode....
+
+=INFO REPORT==== 12-Aug-2012::13:16:04 ===
+Starting master services on 'lxw@jason-lxw'
+
+=INFO REPORT==== 12-Aug-2012::13:16:04 ===
+SSL:[]
+
+=INFO REPORT==== 12-Aug-2012::13:16:04 ===
+Starting cowboy... on 'lxw@jason-lxw'
+
+=INFO REPORT==== 12-Aug-2012::13:16:04 ===
+Starting http listener... on 8001 
+
+=INFO REPORT==== 12-Aug-2012::13:16:04 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::13:16:07 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::13:16:07 ===
+GET /my/test [lxw] 200 5ms
+
+=INFO REPORT==== 12-Aug-2012::13:16:08 ===
+lxw_test_websocket3:handle_join Url="/websocket/test"
+ Ws=<0.276.0>
+ Sid=<<"86984862f90e1da91317edb20366e96310d81b69">>
+  State=[]
+
+
+=INFO REPORT==== 12-Aug-2012::13:16:20 ===
+Loading routes from "/home/jason/soft/ChicagoBoss-0.8.0/lxw/priv/lxw.routes" ....
+
+=INFO REPORT==== 12-Aug-2012::13:16:20 ===
+GET /my/test/ [lxw] 200 6ms
+
+=INFO REPORT==== 12-Aug-2012::13:16:20 ===
+lxw_test_websocket3:handle_join Url="/websocket/test"
+ Ws=<0.281.0>
+ Sid=<<"8ec5197df542b4d3ac13a9af170ea53437db5d96">>
+  State=[{<0.276.0>,<<"86984862f90e1da91317edb20366e96310d81b69">>}]
+
